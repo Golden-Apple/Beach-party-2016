@@ -15,14 +15,7 @@
 //     return view('welcome');
 // });
 
-
 Route::get('/', function () {
-    return view('layouts.master');
-});
-
-
-
-Route::get('/top', function () {
     return view('layouts.top');
 });
 
