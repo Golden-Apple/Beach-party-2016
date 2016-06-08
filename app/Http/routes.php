@@ -20,9 +20,9 @@ Route::get('/', function () {
 });
 
 
-// Route::get('/info', function () {
-//     return view('layouts.info');
-// });
+Route::get('/info', function () {
+    return view('layouts.info');
+});
 
 
 Route::get('/entry', function () {
