@@ -7,10 +7,13 @@
 		<title>ビーチパーティー</title>
 			
 
+			<!-- css -->
+			<link rel="stylesheet" href="{{{asset('/assets/css/style.css')}}}">
 
 			<!-- Bootstrapのcss -->
 			<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-			<!-- umi -->
+			
+			<!-- umi css-->
 			<link rel="stylesheet" href="{{{asset('/assets/umi/css/bootstrap.css')}}}">
 
 		    
@@ -19,8 +22,10 @@
 		   
 			<!-- js	 -->
 			<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-			<!-- umi -->
+
+			<!-- umi js-->
 			<script type="text/javascript" src="{{{asset('/assets/umi/js/bootstrap.js')}}}"></script>
+			
 		
 				<nav class="navbar navbar-default">
 					<div class="container-fluid">
