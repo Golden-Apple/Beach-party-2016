@@ -28,3 +28,7 @@ Route::get('/info', function () {
 Route::get('/entry', function () {
     return view('layouts.entry');
 });
+
+Route::get('/contact', function() {
+  return view('layouts.contact');
+});
