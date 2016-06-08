@@ -1,5 +1,13 @@
-@extends('layouts.')
+@extends('layouts.master')
 
 @section('content')
-  <p>auau</p>
+
+  <div>
+    <p>
+      auau
+    </p>
+  </div>
+  
 @endsection
+
+@yield('info')
