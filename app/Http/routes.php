@@ -20,3 +20,18 @@ Route::get('/', function () {
     return view('layouts.master');
 });
 
+
+
+Route::get('/top', function () {
+    return view('layouts.top');
+});
+
+
+// Route::get('/info', function () {
+//     return view('layouts.info');
+// });
+
+
+Route::get('/entry', function () {
+    return view('layouts.entry');
+});
