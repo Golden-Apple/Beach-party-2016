@@ -1,1 +1,1 @@
-{"version":3,"sources":["app.css"],"names":[],"mappings":"AAAA","file":"app.css","sourceRoot":"/source/","sourcesContent":[]}
+{"version":3,"sources":["app.scss"],"names":[],"mappings":"AAEA;EACC,cAAc;EACd,YAAY,EACZ","file":"app.css","sourcesContent":["// @import \"node_modules/bootstrap-sass/assets/stylesheets/bootstrap\";\n\n#map_canvas {\n\theight: 450px;\n\twidth: 100%;\n}\n"],"sourceRoot":"/source/"}
