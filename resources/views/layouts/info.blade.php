@@ -8,9 +8,9 @@
     </div>
 
     <div class="info-contents">
-      <ul>
-        <li>日時: 7月9日(土) 15:00 ~ 19:00</li>
-        <li>場所: うみそら公園</li>
+      <ul class="list-group" >
+        <li class="list-group-item">日時: 7月9日(土) 15:00 ~ 19:00</li>
+        <li class="list-group-item">場所: うみそら公園(仮)</li>
       </ul>
 
       <div class="accessmap">
