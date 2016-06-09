@@ -4,6 +4,10 @@
 
 <header style="background-image:url(/assets/image/beach.jpg);" class="topImage">
 	<div class="topText">
+<<<<<<< HEAD
+=======
+	
+>>>>>>> 5d14089b98dc86706762b8e9e8c4ceea344d2dd8
 		<p>CRUD Lab. BEACH PARTY 2016!!!</p>
 		<p>2016/7/9(sat)</p>
 		<p>波の上うみそら公園</p>
