@@ -23850,17 +23850,7 @@ var Map = function (_React$Component) {
 	function Map(props, context) {
 		_classCallCheck(this, Map);
 
-		var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(Map).call(this, props, context));
-
-		_this.state = {
-			markers: [{
-				position: {
-					lat: 26.220658,
-					lng: 127.664787
-				}
-			}]
-		};
-		return _this;
+		return _possibleConstructorReturn(this, Object.getPrototypeOf(Map).call(this, props, context));
 	}
 
 	_createClass(Map, [{
@@ -23868,7 +23858,11 @@ var Map = function (_React$Component) {
 		value: function render() {
 			return _react2.default.createElement(_reactGoogleMaps.GoogleMapLoader, {
 				containerElement: _react2.default.createElement('div', { style: { height: "100%" } }),
-				googleMapElement: _react2.default.createElement(_reactGoogleMaps.GoogleMap, { containerProps: this.props, defaultZoom: 18, defaultCenter: { lat: 26.220658, lng: 127.664787 } })
+				googleMapElement: _react2.default.createElement(
+					_reactGoogleMaps.GoogleMap,
+					{ containerProps: this.props, defaultZoom: 16, defaultCenter: { lat: 26.220658, lng: 127.664787 } },
+					_react2.default.createElement(_reactGoogleMaps.Marker, { defaultPosition: { lat: 26.220658, lng: 127.664787 }, defaultIcon: '/assets/image/item-sisa.png' })
+				)
 			});
 		}
 	}]);
