@@ -6,25 +6,16 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>ビーチパーティー</title>
 
-		<!-- css -->
-		<link rel="stylesheet" href="{{{asset('/assets/css/style.css')}}}">
-
-		<!-- Bootstrapのcss -->
-		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-
-		<!-- umi css-->
-		<link rel="stylesheet" href="{{{asset('/assets/umi/css/bootstrap.css')}}}">
-
-		<!-- jQuery -->
+		<!-- js -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
-		<!-- js	 -->
 		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-
-		<!-- umi js-->
 		<script type="text/javascript" src="{{{asset('/assets/umi/js/bootstrap.js')}}}"></script>
-
 		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAcrYYNSa7AfR1Okvly46kErNEXtuj2hPU"></script>
+
+		<!-- css -->
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="{{{asset('/assets/umi/css/bootstrap.css')}}}">
+		<link rel="stylesheet" href="{{{asset('/assets/css/style.css')}}}">
 
 	</head>
 	<body>
@@ -42,7 +33,7 @@
 						</div>
 						<div class="collapse navbar-collapse" id="menu">
 							<ul class="nav navbar-nav">
-							
+
 								<li><a href="#">TOP</a></li>
 								<li><a href="#info">詳細</a></li>
 								<li><a href="#entry">申し込みフォーム</a></li>
