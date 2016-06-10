@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('content')
 
-<div class="contaienr-fluid">
+<div>
 	<div class="top-header">
 		<div class="container top-contents col-sm-12 col-md-12 col-lg-12" style="background-image:url(/assets/image/beach.jpg);">
 
