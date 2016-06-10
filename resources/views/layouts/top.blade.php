@@ -1,6 +1,4 @@
 @extends('layouts.master')
-	        @yield('entry')
-
 @section('content')
 
 <div class="contaienr-fluid">
