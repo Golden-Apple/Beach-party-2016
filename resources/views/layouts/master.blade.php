@@ -24,6 +24,8 @@
 		<!-- umi js-->
 		<script type="text/javascript" src="{{{asset('/assets/umi/js/bootstrap.js')}}}"></script>
 
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAcrYYNSa7AfR1Okvly46kErNEXtuj2hPU"></script>
+
 	</head>
 	<body>
 		<header role="document" data-spy="scroll" data-target="#sampleScrollSpy" data-offset="72">
@@ -41,7 +43,7 @@
 						<div class="collapse navbar-collapse" id="menu">
 							<ul class="nav navbar-nav">
 								<li><a href="#">TOP</a></li>
-								<li><a href="#info">詳細</a></li>
+								<li><a href="/info">詳細</a></li>
 								<li><a href="#entry">申し込みフォーム</a></li>
 								<li><a href="#contact">問い合わせ</a></li>
 							</ul>
