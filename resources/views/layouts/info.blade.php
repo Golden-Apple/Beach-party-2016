@@ -1,8 +1,6 @@
-@extends('layouts.master')
-
 @section('info')
 
-	<div class="container">
+	<div class="container" id="info">
 		<div class="info-header">
 			<h2>イベント詳細∧( 'Θ' )∧</h2>
 		</div>
