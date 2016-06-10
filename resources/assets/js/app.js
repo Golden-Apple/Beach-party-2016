@@ -7,14 +7,6 @@ class Map extends React.Component {
 	constructor(props, context) {
 		super(props, context);
 
-		this.state = {
-			markers: [{
-				position: {
-					lat: 26.220658,
-					lng: 127.664787,
-				},
-			}],
-		}
 	}
 
 	render() {
@@ -22,10 +14,10 @@ class Map extends React.Component {
 			<GoogleMapLoader
 				containerElement={ <div style={{ height: "100%",}} /> }
 				googleMapElement={
-					<GoogleMap containerProps={this.props} defaultZoom={18} defaultCenter={{ lat: 26.220658, lng: 127.664787 }}>
-						<Marker defaultPosition={{ lat: 26.220658, lng: 127.664787 }}/>
+					<GoogleMap containerProps={this.props} defaultZoom={16} defaultCenter={{ lat: 26.220658, lng: 127.664787 }}>
+						<Marker defaultPosition={{ lat: 26.220658, lng: 127.664787 }} defaultIcon={'/assets/image/item-sisa.png'} />
 					</GoogleMap>
-			}
+				}
 			/>
 		);
 	}
