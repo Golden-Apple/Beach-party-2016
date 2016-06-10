@@ -24,6 +24,8 @@
 		<!-- umi js-->
 		<script type="text/javascript" src="{{{asset('/assets/umi/js/bootstrap.js')}}}"></script>
 
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAcrYYNSa7AfR1Okvly46kErNEXtuj2hPU"></script>
+
 	</head>
 	<body>
 		<header role="document" data-spy="scroll" data-target="#sampleScrollSpy" data-offset="72">
