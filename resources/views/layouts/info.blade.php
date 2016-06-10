@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('content')
+@section('info')
 
 	<div class="container">
 		<div class="info-header">
