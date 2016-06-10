@@ -30,31 +30,32 @@
 				
 	</head>
 	<body>
-		<header>
-			<nav class="navbar navbar-default">
-				<div class="container-fluid">
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
+		<header role="document" data-spy="scroll" data-target="#sampleScrollSpy" data-offset="72">
+			<div id="sampleScrollSpy">
+				<nav class="navbar navbar-default navbar-fixed-top">
+					<div class="container-fluid">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+						<div class="collapse navbar-collapse" id="menu">
+							<ul class="nav navbar-nav">
+								<li><a href="/">TOP</a></li>
+								<li><a href="/info">詳細</a></li>
+								<li><a href="/entry">申し込みフォーム</a></li>
+								<li><a href="/contact">問い合わせ</a></li>
+							</ul>						
+						</div>
 					</div>
-					<div class="collapse navbar-collapse" id="menu">
-						<ul class="nav navbar-nav">
-							<li><a href="/">TOP</a></li>
-							<li><a href="/info">詳細</a></li>
-							<li><a href="#entry">申し込みフォーム</a></li>
-							<li><a href="/contact">問い合わせ</a></li>
-						</ul>						
-					</div>
-				</div>
-			</nav>
+				</nav>
+			</div>
 		</header>
 		
 	        @yield('content')
-	        @yield('entry')
-			
+			@yield('entry')
 	</body>
 </html>
