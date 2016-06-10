@@ -1,3 +1,5 @@
+@extends('layouts.master')
+
 @section('info')
 
 	<div class="container">
@@ -24,6 +26,8 @@ AIzaSyAcrYYNSa7AfR1Okvly46kErNEXtuj2hPU
 				<button type="button" name="button" class="btn btn-primary btn-lg">お問い合わせ</button>
 			</div>
 		</div>
+
+		<script type="text/javascript" src="/js/app.js"></script>
 	</div>
 
 @endsection
