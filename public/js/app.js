@@ -19682,7 +19682,7 @@ _reactDom2.default.render(_react2.default.createElement(
   'h1',
   null,
   'Hello, world!'
-), document.getElementById('example'));
+), document.getElementById('map'));
 
 },{"react":167,"react-dom":28}]},{},[168]);
 
