@@ -19,7 +19,7 @@
 			</div>
 
 			<div class="row">
-				<button type="button" name="button" class="btn btn-primary btn-lg">お問い合わせ</button>
+				<a href="#contact" class="btn btn-primary btn-lg">お問い合わせ</a>
 			</div>
 		</div>
 
