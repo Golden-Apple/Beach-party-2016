@@ -47,9 +47,22 @@
 		</header>
 
 		@yield('content')
+
+		<hr>
+
 		@yield('info')
+
+		<hr>
+
 		@yield('entry')
+
+		<hr>
+
 		@yield('contact')
+
+		<footer class="footer">
+			footerがほしいような入らないような...
+		</footer>
 
 	</body>
 </html>
