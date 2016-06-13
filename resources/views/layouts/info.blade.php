@@ -18,13 +18,35 @@
 				<div class="col-md-12" id="map"></div>
 			</div>
 
-			<div class="row btn-contact">
+			<div class="responsible row">
 
-				<div class="responsible">
-					担当者情報
+				<h3>担当者はこの人たち。</h3>
+
+				<div class="media">
+					<div class="media-left">
+						<a>
+							<img src="{{{asset('assets/image/item-konko.png')}}}" alt="かぼちゃ" class="img-circle" />
+						</a>
+					</div>
+					<div class="media-body">
+						<h4 class="media-heading">かぼちゃよん。</h4>
+						連絡先: xxx-xxxx-xxxx
+					</div>
 				</div>
 
-				<a href="#contact" class=" btn btn-primary btn-lg">お問い合わせ</a>
+				<div class="media">
+					<div class="media-left">
+						<a>
+							<img src="{{{asset('assets/image/item-konko.png')}}}" alt="しおん" class="img-circle" />
+						</a>
+					</div>
+					<div class="media-body">
+						<h4 class="media-heading">しおんだよ。</h4>
+						連絡先: xxx-xxxx-xxxx
+					</div>
+				</div>
+
+				<a id="btn-contact" href="#contact" class="btn btn-primary btn-lg">お問い合わせ</a>
 			</div>
 		</div>
 
