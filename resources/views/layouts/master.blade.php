@@ -61,7 +61,6 @@
 		@yield('contact')
 
 		<footer class="footer">
-			footerがほしいような入らないような...
 		</footer>
 
 	</body>
