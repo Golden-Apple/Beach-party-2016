@@ -1,23 +1,24 @@
 body {
   height: 100%; }
 
-.accessmap .konko {
-  background-image: url("/assets/image/item-konko.png");
-  background-repeat: no-repeat;
-  position: relative;
-  height: 46px;
-  top: 20px;
-  z-index: 5;
-  transition: 1s linear 0s; }
-
-.accessmap #map {
+.accessmap {
   height: 450px;
-  position: relative;
-  top: -30px;
-  z-index: 10; }
-
-.accessmap:hover .konko {
-  top: -20px; }
+  position: relative; }
+  .accessmap .konko {
+    background-image: url("/assets/image/item-konko.png");
+    background-repeat: no-repeat;
+    position: relative;
+    height: 46px;
+    top: 30px;
+    z-index: 5;
+    transition: 1s linear 0s; }
+  .accessmap #map {
+    height: 450px;
+    position: absolute;
+    top: 0;
+    z-index: 10; }
+  .accessmap:hover .konko {
+    top: -30px; }
 
 #btn-contact {
   margin-top: 20px; }
