@@ -23861,7 +23861,15 @@ var Map = function (_React$Component) {
 				googleMapElement: _react2.default.createElement(
 					_reactGoogleMaps.GoogleMap,
 					{ containerProps: this.props, defaultZoom: 16, defaultCenter: { lat: 26.220658, lng: 127.664787 }, defaultOptions: { styles: require('../json/MapStyle.json') } },
-					_react2.default.createElement(_reactGoogleMaps.Marker, { defaultPosition: { lat: 26.220658, lng: 127.664787 }, defaultIcon: '/assets/image/item-sisa.png' })
+					_react2.default.createElement(
+						_reactGoogleMaps.Marker,
+						{ defaultPosition: { lat: 26.220658, lng: 127.664787 }, defaultIcon: '/assets/image/item-sisa.png' },
+						_react2.default.createElement(
+							_reactGoogleMaps.InfoWindow,
+							null,
+							'ここだよーん'
+						)
+					)
 				)
 			});
 		}
