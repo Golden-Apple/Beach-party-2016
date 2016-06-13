@@ -8,8 +8,13 @@ body {
 	height: 450px;
 }
 
-.btn-contact {
+#btn-contact {
 	margin-top: 20px;
+}
+
+.responsible {
+	margin-top: 20px;
+	padding: 10px;
 }
 
 #contact {
@@ -21,6 +26,7 @@ body {
 }
 
 .footer {
-	background-color: #2c3e50;
+	background-color: #202d3b;
 	color: #ffffff;
+	height: 200px;
 }
