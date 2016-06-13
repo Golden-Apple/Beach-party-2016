@@ -1,5 +1,4 @@
 // @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
-
 body {
 	height: 100%;
 }
@@ -13,6 +12,7 @@ body {
 		height: 46px;
 		top: 20px;
 		z-index: 5;
+		transition: 1s linear 0s;
 	}
 
 	#map {
@@ -20,7 +20,6 @@ body {
 		position: relative;
 		top: -30px;
 		z-index: 10;
-
 	}
 
 	&:hover .konko{
