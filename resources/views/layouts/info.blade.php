@@ -15,11 +15,16 @@
 			</div>
 
 			<div class="row accessmap">
-				<div id="map"></div>
+				<div class="col-md-12" id="map"></div>
 			</div>
 
-			<div class="row">
-				<button type="button" name="button" class="btn btn-primary btn-lg">お問い合わせ</button>
+			<div class="row btn-contact">
+
+				<div class="responsible">
+					担当者情報
+				</div>
+
+				<a href="#contact" class=" btn btn-primary btn-lg">お問い合わせ</a>
 			</div>
 		</div>
 
