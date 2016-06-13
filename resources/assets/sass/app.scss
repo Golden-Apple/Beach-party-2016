@@ -1,11 +1,30 @@
 // @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
-
 body {
 	height: 100%;
 }
 
-#map {
-	height: 450px;
+.accessmap {
+
+	.konko {
+		background-image: url('/assets/image/item-konko.png');
+		background-repeat: no-repeat;
+		position: relative;
+		height: 46px;
+		top: 20px;
+		z-index: 5;
+		transition: 1s linear 0s;
+	}
+
+	#map {
+		height: 450px;
+		position: relative;
+		top: -30px;
+		z-index: 10;
+	}
+
+	&:hover .konko{
+		top: -20px;
+	}
 }
 
 #btn-contact {
