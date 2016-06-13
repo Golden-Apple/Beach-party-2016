@@ -1,0 +1,23 @@
+[
+  {
+    "stylers": [
+      { "hue": "#ff9900" }
+    ]
+  },{
+    "featureType": "road.arterial",
+    "stylers": [
+      { "hue": "#91ff00" }
+    ]
+  },{
+    "featureType": "landscape.man_made",
+    "stylers": [
+      { "hue": "#ff6600" }
+    ]
+  },{
+    "featureType": "administrative",
+    "stylers": [
+      { "hue": "#ff4400" }
+    ]
+  },{
+    "featureType": "transit"  }
+]
