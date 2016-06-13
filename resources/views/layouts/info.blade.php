@@ -15,7 +15,8 @@
 			</div>
 
 			<div class="row accessmap">
-				<div class="col-md-offset-9 visible-md visible-lg konko"></div>
+				<div class="col-md-offset-9 visible-md visible-lg konko">
+				</div>
 				<div class="col-md-12" id="map"></div>
 			</div>
 
