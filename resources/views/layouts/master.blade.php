@@ -16,6 +16,7 @@
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 		<link rel="stylesheet" href="{{{asset('/assets/umi/css/bootstrap.css')}}}">
 		<link rel="stylesheet" href="{{{asset('/assets/css/style.css')}}}">
+		<link rel="stylesheet" href="css/app.css">
 
 	</head>
 	<body>
@@ -48,6 +49,7 @@
 		@yield('content')
 		@yield('info')
 		@yield('entry')
+		@yield('contact')
 
 	</body>
 </html>

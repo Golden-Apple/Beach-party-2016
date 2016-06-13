@@ -23860,7 +23860,7 @@ var Map = function (_React$Component) {
 				containerElement: _react2.default.createElement('div', { style: { height: "100%" } }),
 				googleMapElement: _react2.default.createElement(
 					_reactGoogleMaps.GoogleMap,
-					{ containerProps: this.props, defaultZoom: 16, defaultCenter: { lat: 26.220658, lng: 127.664787 } },
+					{ containerProps: this.props, defaultZoom: 16, defaultCenter: { lat: 26.220658, lng: 127.664787 }, defaultOptions: { styles: require('../json/MapStyle.json') } },
 					_react2.default.createElement(_reactGoogleMaps.Marker, { defaultPosition: { lat: 26.220658, lng: 127.664787 }, defaultIcon: '/assets/image/item-sisa.png' })
 				)
 			});
@@ -23872,6 +23872,31 @@ var Map = function (_React$Component) {
 
 _reactDom2.default.render(_react2.default.createElement(Map, null), document.getElementById('map'));
 
-},{"react":213,"react-dom":30,"react-google-maps":67}]},{},[215]);
+},{"../json/MapStyle.json":216,"react":213,"react-dom":30,"react-google-maps":67}],216:[function(require,module,exports){
+module.exports=[
+  {
+    "stylers": [
+      { "hue": "#ff9900" }
+    ]
+  },{
+    "featureType": "road.arterial",
+    "stylers": [
+      { "hue": "#91ff00" }
+    ]
+  },{
+    "featureType": "landscape.man_made",
+    "stylers": [
+      { "hue": "#ff6600" }
+    ]
+  },{
+    "featureType": "administrative",
+    "stylers": [
+      { "hue": "#ff4400" }
+    ]
+  },{
+    "featureType": "transit"  }
+]
+
+},{}]},{},[215]);
 
 //# sourceMappingURL=app.js.map
