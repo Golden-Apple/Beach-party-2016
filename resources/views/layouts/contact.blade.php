@@ -1,12 +1,7 @@
 @section('contact')
 
-	<div class="container contact">
-		<div class="contact-header">
-			<h2>お問い合わせふぉーむ。</h2>
-		</div>
-		<div class="contact-content">
-			ふぉーむだお
-		</div>
+	<div class="container" id="contact">
+		<iframe src="{{{asset('/assets/form/viewform.htm')}}}" width="100%" height="800" frameborder="0"></iframe>
 	</div>
 
 @endsection
