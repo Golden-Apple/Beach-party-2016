@@ -7,10 +7,6 @@ body {
 #btn-contact {
   margin-top: 20px; }
 
-.responsible {
-  margin-top: 20px;
-  padding: 10px; }
-
 #contact {
   background-color: #F9F9F9; }
 
@@ -20,6 +16,8 @@ body {
 .footer {
   background-color: #202d3b;
   color: #ffffff;
-  height: 200px; }
+  height: 50px;
+  padding: 10px;
+  text-align: center; }
 
 /*# sourceMappingURL=app.css.map */
