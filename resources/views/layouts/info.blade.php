@@ -2,12 +2,14 @@
 
 	<div class="container" id="info">
 		<div class="info-header">
-			<h2 class="heading">イベント詳細∧( 'Θ' )∧</h2>
+			<div class="heading">
+				<h2 class="wow bounceInRight">イベント詳細∧( 'Θ' )∧</h2>
+			</div>
 			<hr>
 		</div>
 
 		<div class="container info-contents">
-			<div class="row wow slideInRight">
+			<div class="row">
 				<ul class="col-md-8 list-group info-list">
 					<li class="list-group-item">日時: 7月9日(土) 15:00 ~ 19:00</li>
 					<li class="list-group-item">場所: うみそら公園</li>
@@ -27,7 +29,9 @@
 
 			<div class="row responsible">
 
-				<h3 class="heading">担当者はこの人たち。</h3>
+				<div class="heading">
+					<h3>担当者はこの人たち。</h3>
+				</div>
 				<hr>
 				<div class="container">
 					<div class="col-md-6 col-xs-12 member">

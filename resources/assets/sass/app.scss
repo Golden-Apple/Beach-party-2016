@@ -6,6 +6,12 @@ body::-webkit-scrollbar {
 .heading {
 	border-left: ridge 10px #202d3b;
 	border-bottom: solid 2px #202d3b;
+	margin-top: 20px;
+	padding: 0;
+
+	h2,h3 {
+		margin: 0;
+	}
 }
 
 .info-list {
