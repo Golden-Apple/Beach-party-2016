@@ -26,28 +26,28 @@
 				<h3>担当者はこの人たち。</h3>
 
 				<div class="container">
-					<div class="col-md-6 col-xs-12">
+					<div class="col-md-6 col-xs-12 member">
 						<div class="row text-center">
 							<div class="col-md-12">
 								<a>
-									<img src="{{{asset('assets/image/thumbnail.png')}}}" alt="かぼちゃ" class="img-circle" />
+									<img src="{{{asset('assets/image/thumbnail.png')}}}" alt="かぼちゃ" class="thumbnail-img" />
 								</a>
 							</div>
-							<div class="col-md-12">
+							<div class="col-md-12 profile">
 								<h4 class="media-heading">かぼちゃよん。</h4>
 								連絡先: xxx-xxxx-xxxx
 							</div>
 						</div>
 					</div>
 
-					<div class="col-md-6 col-xs-12">
+					<div class="col-md-6 col-xs-12 member">
 						<div class="row text-center">
 							<div class="col-md-12">
 								<a>
-									<img src="{{{asset('assets/image/thumbnail.png')}}}" alt="しおん" class="img-circle" />
+									<img src="{{{asset('assets/image/thumbnail.png')}}}" alt="しおん" class="thumbnail-img" />
 								</a>
 							</div>
-							<div class="col-md-12">
+							<div class="col-md-12 profile">
 								<h4 class="media-heading">しおんだよ。</h4>
 								連絡先: xxx-xxxx-xxxx
 							</div>
