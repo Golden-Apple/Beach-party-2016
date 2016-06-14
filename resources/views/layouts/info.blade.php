@@ -8,11 +8,12 @@
 
 		<div class="container info-contents">
 			<div class="row">
-				<ul class="col-md-8 list-group">
+				<ul class="col-md-8 list-group info-list">
 					<li class="list-group-item">日時: 7月9日(土) 15:00 ~ 19:00</li>
 					<li class="list-group-item">場所: うみそら公園</li>
 					<li class="list-group-item">参加費: きっと無料</li>
 					<li class="list-group-item">持ち物: 飲みたいお酒など ※瓶NG</li>
+					<img src="{{{asset('/assets/image/konko/list-konko.png')}}}" alt="" />
 				</ul>
 			</div>
 
