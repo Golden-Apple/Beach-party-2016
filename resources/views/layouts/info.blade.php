@@ -23,7 +23,9 @@
 				<div class="col-md-12 col-xs-12" id="map"></div>
 			</div>
 
-			<div class="container row responsible">
+			<a id="btn-contact" href="#entry" class="center-block btn btn-success btn-lg">エントリーする</a>
+
+			<div class="row responsible">
 
 				<h3 class="heading">担当者はこの人たち。</h3>
 				<hr>
@@ -58,7 +60,7 @@
 					</div>
 				</div>
 
-				<a id="btn-contact" href="#contact" class="center-block btn btn-primary btn-lg">お問い合わせ</a>
+				<a id="btn-contact" href="#contact" class="center-block btn btn-primary btn-lg">お問い合わせはこちら</a>
 			</div>
 		</div>
 
