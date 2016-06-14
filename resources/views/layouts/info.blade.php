@@ -4,6 +4,7 @@
 		<div class="info-header">
 			<h2>イベント詳細∧( 'Θ' )∧</h2>
 		</div>
+
 		<div class="container info-contents">
 			<div class="row">
 				<ul class="col-md-8 list-group">
@@ -25,28 +26,31 @@
 				<h3>担当者はこの人たち。</h3>
 
 				<div class="media">
-					<div class="media-left">
-						<a>
-							<img src="{{{asset('assets/image/item-konko.png')}}}" alt="かぼちゃ" class="img-circle" />
-						</a>
+					<div class="col-md-6 col-xs-12">
+						<div class="media-left">
+							<a>
+								<img src="{{{asset('assets/image/item-konko.png')}}}" alt="かぼちゃ" class="img-circle" />
+							</a>
+						</div>
+						<div class="media-body">
+							<h4 class="media-heading">かぼちゃよん。</h4>
+							連絡先: xxx-xxxx-xxxx
+						</div>
 					</div>
-					<div class="media-body">
-						<h4 class="media-heading">かぼちゃよん。</h4>
-						連絡先: xxx-xxxx-xxxx
+
+					<div class="col-md-6 col-xs-12">
+						<div class="media-left">
+							<a>
+								<img src="{{{asset('assets/image/item-konko.png')}}}" alt="しおん" class="img-circle" />
+							</a>
+						</div>
+						<div class="media-body">
+							<h4 class="media-heading">しおんだよ。</h4>
+							連絡先: xxx-xxxx-xxxx
+						</div>
 					</div>
 				</div>
 
-				<div class="media">
-					<div class="media-left">
-						<a>
-							<img src="{{{asset('assets/image/item-konko.png')}}}" alt="しおん" class="img-circle" />
-						</a>
-					</div>
-					<div class="media-body">
-						<h4 class="media-heading">しおんだよ。</h4>
-						連絡先: xxx-xxxx-xxxx
-					</div>
-				</div>
 
 				<a id="btn-contact" href="#contact" class="btn btn-primary btn-lg">お問い合わせ</a>
 			</div>
