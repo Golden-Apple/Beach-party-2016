@@ -6,6 +6,12 @@ body::-webkit-scrollbar {
 .heading {
 	border-left: ridge 10px #202d3b;
 	border-bottom: solid 2px #202d3b;
+	margin-top: 20px;
+	padding: 0;
+
+	h2,h3 {
+		margin: 0;
+	}
 }
 
 .info-list {
@@ -34,6 +40,7 @@ body::-webkit-scrollbar {
 
 	#map {
 		height: 450px;
+		padding: 0;
 		position: absolute;
 		top: 0;
 		z-index: 10;

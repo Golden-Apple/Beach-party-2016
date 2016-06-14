@@ -3,7 +3,11 @@ body::-webkit-scrollbar {
 
 .heading {
   border-left: ridge 10px #202d3b;
-  border-bottom: solid 2px #202d3b; }
+  border-bottom: solid 2px #202d3b;
+  margin-top: 20px;
+  padding: 0; }
+  .heading h2, .heading h3 {
+    margin: 0; }
 
 .info-list {
   position: relative; }
@@ -25,6 +29,7 @@ body::-webkit-scrollbar {
     transition: 0.5s ease-in 0s; }
   .accessmap #map {
     height: 450px;
+    padding: 0;
     position: absolute;
     top: 0;
     z-index: 10; }
