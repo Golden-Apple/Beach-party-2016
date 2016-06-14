@@ -20,7 +20,7 @@
 		<link rel="stylesheet" href="css/app.css">
 
 	</head>
-	<body>
+	<body class="no-thank-yu">
 		<header role="document" data-spy="scroll" data-target="#sampleScrollSpy" data-offset="72">
 			<div id="sampleScrollSpy">
 				<nav class="navbar navbar-default navbar-fixed-top">
