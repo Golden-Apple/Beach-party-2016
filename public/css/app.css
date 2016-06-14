@@ -5,7 +5,7 @@ body {
   height: 450px;
   position: relative; }
   .accessmap .konko {
-    background-image: url("/assets/image/item-konko.png");
+    background-image: url("/assets/image/konko/item-konko.png");
     background-repeat: no-repeat;
     position: relative;
     height: 46px;

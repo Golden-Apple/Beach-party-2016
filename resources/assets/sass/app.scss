@@ -4,12 +4,11 @@ body {
 }
 
 .accessmap {
-
 	height: 450px;
 	position: relative;
 
 	.konko {
-		background-image: url('/assets/image/item-konko.png');
+		background-image: url('/assets/image/konko/item-konko.png');
 		background-repeat: no-repeat;
 		position: relative;
 		height: 46px;
@@ -41,7 +40,6 @@ body {
 		height: 850px;
 		width: 100%;
 	}
-
 }
 
 .ss-required-asterisk {
