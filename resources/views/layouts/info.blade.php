@@ -3,6 +3,7 @@
 	<div class="container" id="info">
 		<div class="info-header">
 			<h2>イベント詳細∧( 'Θ' )∧</h2>
+			<hr>
 		</div>
 
 		<div class="container info-contents">
@@ -24,7 +25,7 @@
 			<div class="responsible row">
 
 				<h3>担当者はこの人たち。</h3>
-
+				<hr>
 				<div class="container">
 					<div class="col-md-6 col-xs-12 member">
 						<div class="row text-center">
@@ -34,7 +35,7 @@
 								</a>
 							</div>
 							<div class="col-md-12 profile">
-								<h4 class="media-heading">かぼちゃよん。</h4>
+								<h4>かぼちゃよん。</h4>
 								連絡先: xxx-xxxx-xxxx
 							</div>
 						</div>
@@ -48,14 +49,13 @@
 								</a>
 							</div>
 							<div class="col-md-12 profile">
-								<h4 class="media-heading">しおんだよ。</h4>
+								<h4>しおんだよ。</h4>
 								連絡先: xxx-xxxx-xxxx
 							</div>
 						</div>
 
 					</div>
 				</div>
-
 
 				<a id="btn-contact" href="#contact" class="center-block btn btn-primary btn-lg">お問い合わせ</a>
 			</div>
