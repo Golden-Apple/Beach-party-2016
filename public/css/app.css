@@ -1,5 +1,5 @@
-body {
-  height: 100%; }
+body::-webkit-scrollbar {
+  display: none; }
 
 .info-list {
   position: relative; }

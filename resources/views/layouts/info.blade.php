@@ -25,7 +25,7 @@
 
 			<div class="responsible row">
 
-				<h3>担当者はこの人たち。</h3>
+				<h3 class="text-center">担当者はこの人たち。</h3>
 				<hr>
 				<div class="container">
 					<div class="col-md-6 col-xs-12 member">
