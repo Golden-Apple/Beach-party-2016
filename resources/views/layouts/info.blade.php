@@ -3,6 +3,7 @@
 	<div class="container" id="info">
 		<div class="info-header">
 			<h2>イベント詳細∧( 'Θ' )∧</h2>
+			<hr>
 		</div>
 
 		<div class="container info-contents">
@@ -16,7 +17,7 @@
 			</div>
 
 			<div class="row accessmap">
-				<div class="col-md-offset-9 visible-md visible-lg konko">
+				<div class="col-md-offset-10 visible-md visible-lg konko">
 				</div>
 				<div class="col-md-12 col-xs-12" id="map"></div>
 			</div>
@@ -24,38 +25,37 @@
 			<div class="responsible row">
 
 				<h3>担当者はこの人たち。</h3>
-
+				<hr>
 				<div class="container">
-					<div class="col-md-6 col-xs-12">
+					<div class="col-md-6 col-xs-12 member">
 						<div class="row text-center">
 							<div class="col-md-12">
 								<a>
-									<img src="{{{asset('assets/image/thumbnail.png')}}}" alt="かぼちゃ" class="img-circle" />
+									<img src="{{{asset('assets/image/thumbnail.png')}}}" alt="かぼちゃ" class="thumbnail-img" />
 								</a>
 							</div>
-							<div class="col-md-12">
-								<h4 class="media-heading">かぼちゃよん。</h4>
+							<div class="col-md-12 profile">
+								<h4>かぼちゃよん。</h4>
 								連絡先: xxx-xxxx-xxxx
 							</div>
 						</div>
 					</div>
 
-					<div class="col-md-6 col-xs-12">
+					<div class="col-md-6 col-xs-12 member">
 						<div class="row text-center">
 							<div class="col-md-12">
 								<a>
-									<img src="{{{asset('assets/image/thumbnail.png')}}}" alt="しおん" class="img-circle" />
+									<img src="{{{asset('assets/image/thumbnail.png')}}}" alt="しおん" class="thumbnail-img" />
 								</a>
 							</div>
-							<div class="col-md-12">
-								<h4 class="media-heading">しおんだよ。</h4>
+							<div class="col-md-12 profile">
+								<h4>しおんだよ。</h4>
 								連絡先: xxx-xxxx-xxxx
 							</div>
 						</div>
 
 					</div>
 				</div>
-
 
 				<a id="btn-contact" href="#contact" class="center-block btn btn-primary btn-lg">お問い合わせ</a>
 			</div>

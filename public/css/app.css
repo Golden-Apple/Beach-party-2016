@@ -11,7 +11,7 @@ body {
     height: 46px;
     top: 30px;
     z-index: 5;
-    transition: 1s linear 0s; }
+    transition: 0.5s ease-in 0s; }
   .accessmap #map {
     height: 450px;
     position: absolute;
@@ -19,6 +19,16 @@ body {
     z-index: 10; }
   .accessmap:hover .konko {
     top: -30px; }
+
+.thumbnail-img {
+  background-color: #ffffff;
+  border-radius: 300px; }
+
+.member {
+  margin-top: 20px; }
+
+.profile {
+  margin-top: 20px; }
 
 #btn-contact {
   margin-top: 20px; }
