@@ -2,7 +2,9 @@
 
 	<div class="container" id="info">
 		<div class="info-header">
-			<h2 class="heading">イベント詳細∧( 'Θ' )∧</h2>
+			<div class="heading">
+				<h2 class="wow bounceInRight">イベント詳細∧( 'Θ' )∧</h2>
+			</div>
 			<hr>
 		</div>
 
@@ -17,24 +19,26 @@
 				</ul>
 			</div>
 
-			<div class="row accessmap">
+			<div class="row accessmap wow slideInLeft">
 				<div class="col-md-offset-10 visible-md visible-lg konko">
 				</div>
 				<div class="col-md-12 col-xs-12" id="map"></div>
 			</div>
 
-			<a id="btn-contact" href="#entry" class="center-block btn btn-success btn-lg">エントリーする</a>
+			<a id="btn-contact" href="#entry" class="center-block btn btn-success btn-lg wow bounceIn">エントリーする</a>
 
 			<div class="row responsible">
 
-				<h3 class="heading">担当者はこの人たち。</h3>
+				<div class="heading">
+					<h3>担当者はこの人たち。</h3>
+				</div>
 				<hr>
 				<div class="container">
 					<div class="col-md-6 col-xs-12 member">
 						<div class="row text-center">
 							<div class="col-md-12">
 								<a>
-									<img src="{{{asset('assets/image/thumbnail.png')}}}" alt="かぼちゃ" class="thumbnail-img" />
+									<img src="{{{asset('assets/image/thumbnail.png')}}}" alt="かぼちゃ" class="thumbnail-img wow hinge" />
 								</a>
 							</div>
 							<div class="col-md-12 profile">
@@ -60,7 +64,7 @@
 					</div>
 				</div>
 
-				<a id="btn-contact" href="#contact" class="center-block btn btn-primary btn-lg">お問い合わせはこちら</a>
+				<a id="btn-contact" href="#contact" class="center-block btn btn-primary btn-lg wow zoomIn">お問い合わせはこちら</a>
 			</div>
 		</div>
 

@@ -3,7 +3,11 @@ body::-webkit-scrollbar {
 
 .heading {
   border-left: ridge 10px #202d3b;
-  border-bottom: solid 2px #202d3b; }
+  border-bottom: solid 2px #202d3b;
+  margin-top: 20px;
+  padding: 0; }
+  .heading h2, .heading h3 {
+    margin: 0; }
 
 .info-list {
   position: relative; }

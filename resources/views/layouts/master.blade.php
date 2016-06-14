@@ -16,6 +16,7 @@
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 		<link rel="stylesheet" href="{{{asset('/assets/umi/css/bootstrap.css')}}}">
 		<link rel="stylesheet" href="{{{asset('/assets/css/style.css')}}}">
+		<link rel="stylesheet" href="css/animate.css">
 		<link rel="stylesheet" href="css/app.css">
 
 	</head>
@@ -54,5 +55,9 @@
 		<footer class="footer">
 		</footer>
 
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+		<script type="text/javascript">
+			new WOW().init();
+		</script>
 	</body>
 </html>
