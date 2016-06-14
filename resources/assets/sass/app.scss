@@ -1,6 +1,11 @@
 // @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
-body {
-	height: 100%;
+body::-webkit-scrollbar {
+	display:none;
+}
+
+.heading {
+	border-left: ridge 10px #202d3b;
+	border-bottom: solid 2px #202d3b;
 }
 
 .info-list {

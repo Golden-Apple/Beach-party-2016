@@ -2,7 +2,7 @@
 
 	<div class="container" id="info">
 		<div class="info-header">
-			<h2>イベント詳細∧( 'Θ' )∧</h2>
+			<h2 class="heading">イベント詳細∧( 'Θ' )∧</h2>
 			<hr>
 		</div>
 
@@ -23,9 +23,9 @@
 				<div class="col-md-12 col-xs-12" id="map"></div>
 			</div>
 
-			<div class="responsible row">
+			<div class="container row responsible">
 
-				<h3>担当者はこの人たち。</h3>
+				<h3 class="heading">担当者はこの人たち。</h3>
 				<hr>
 				<div class="container">
 					<div class="col-md-6 col-xs-12 member">
