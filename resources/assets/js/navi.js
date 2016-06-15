@@ -11,10 +11,10 @@ class Nav extends React.Component {
 			<div className="nav-field">
 				<ul className="nav-list">
 					<li className="nav-title">びーちぱーりぃ</li>
-					<li><a>top</a></li>
-					<li><a>info</a></li>
-					<li><a>form</a></li>
-					<li><a>contact</a></li>
+					<li><a href="/">top</a></li>
+					<li><a href="#info">info</a></li>
+					<li><a href="#form">form</a></li>
+					<li><a href="#contact">contact</a></li>
 				</ul>
 			</div>
 		);
