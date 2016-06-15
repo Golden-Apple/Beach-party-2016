@@ -4,7 +4,7 @@ body::-webkit-scrollbar {
 }
 
 #nav {
-	background-color: #20b2aa;
+	border: solid 2px #20b2aa;
 	height: 70px;
 	position: fixed;
 	width: 100%;
@@ -12,25 +12,28 @@ body::-webkit-scrollbar {
 
 	.nav-field {
 		height: 100%;
-		position: relative;
-		width: 100%;
+
+		.nav-list {
+			height: 100%;
+			margin: 0;
+			padding: 10px;
+			width: 100%;
+
+			li {
+				display: block;
+				float: left;
+				font-size: 15pt;
+				margin: 0;
+				padding: 10px;
+
+				a {
+					text-decoration: none;
+				}
+			}
+		}
 	}
 
-	.nav-list {
-		bottom: 0;
-		font-size: 15pt;
-		margin: 0;
-		padding-left: 30px;
-		position: absolute;
-		top: 0;
 
-		.nav-title {
-		}
-
-		li {
-			display: inline-block;
-		}
-	}
 }
 
 .heading {

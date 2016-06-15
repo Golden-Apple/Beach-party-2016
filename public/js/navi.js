@@ -19714,7 +19714,7 @@ var Nav = function (_React$Component) {
 						null,
 						_react2.default.createElement(
 							'a',
-							null,
+							{ href: '/' },
 							'top'
 						)
 					),
@@ -19723,7 +19723,7 @@ var Nav = function (_React$Component) {
 						null,
 						_react2.default.createElement(
 							'a',
-							null,
+							{ href: '#info' },
 							'info'
 						)
 					),
@@ -19732,7 +19732,7 @@ var Nav = function (_React$Component) {
 						null,
 						_react2.default.createElement(
 							'a',
-							null,
+							{ href: '#form' },
 							'form'
 						)
 					),
@@ -19741,7 +19741,7 @@ var Nav = function (_React$Component) {
 						null,
 						_react2.default.createElement(
 							'a',
-							null,
+							{ href: '#contact' },
 							'contact'
 						)
 					)
