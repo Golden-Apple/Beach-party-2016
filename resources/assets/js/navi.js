@@ -9,7 +9,8 @@ class Nav extends React.Component {
 	render() {
 		return(
 			<div className="nav-field">
-				<ul className="nav-list">
+				<div id="toggle"><a href="#">menu</a></div>
+				<ul id="nav-list">
 					<li className="nav-title">びーちぱーりぃ</li>
 					<li><a href="/">top</a></li>
 					<li><a href="#info">info</a></li>
