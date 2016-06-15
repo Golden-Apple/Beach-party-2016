@@ -19,5 +19,11 @@
       { "hue": "#ff4400" }
     ]
   },{
-    "featureType": "transit"  }
+    "featureType": "transit"
+	}, {
+    "featureType": "water",
+    "stylers": [
+      { "hue": "#0077ff" }
+    ]
+  }
 ]
