@@ -3,21 +3,33 @@ html{
 	width: 100%;
 }
 
+body{
+	height: 100%;
+}
+
 .top-header{
 	width: 100%;
-	padding: 80px 0;
+	height: 100%;
+	padding: 10px 0;
+	margin-top: 50px;
 
 }
 
-.top-contents{
-	width: 100%;
+.top-image{
+	height: 100%;
+	display: table;
 	background-repeat: no-repeat;
 	background-size:cover;
 	background-position: center center;
-	/*position: fixed;*/
-	text-align: center;
 	margin-top: 1px;
-	padding: 10px 0;
+	padding: 5px 0;
+}
+
+.top-contents{
+	text-align: center;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
 	font-size: 3em;
 	font-weight: bold;
 	color: #fff;

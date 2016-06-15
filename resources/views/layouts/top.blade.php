@@ -1,10 +1,9 @@
 @extends('layouts.master')
 @section('content')
 
-<div>
-	<div class="top-header">
-		<div class="container top-contents col-sm-12 col-md-12 col-lg-12" style="background-image:url(/assets/image/beach.jpg);">
-
+<div class="top-header">
+	<div class="container top-image col-sm-12 col-md-12 col-lg-12" style="background-image:url(/assets/image/beach.jpg);">
+		<div class="top-contents">
 			<p>CRUD Lab. BEACH PARTY 2016!!!</p>
 			<p>2016/7/9(sat)</p>
 			<p>波の上うみそら公園</p>

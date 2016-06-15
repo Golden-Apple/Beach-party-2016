@@ -36,7 +36,7 @@
 						<div class="collapse navbar-collapse" id="menu">
 							<ul class="nav navbar-nav">
 
-								<li><a href="#">TOP</a></li>
+								<li><a href="/">TOP</a></li>
 								<li><a href="#info">詳細</a></li>
 								<li><a href="#entry">申し込みフォーム</a></li>
 								<li><a href="#contact">問い合わせ</a></li>
