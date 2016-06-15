@@ -21,7 +21,7 @@ body::-webkit-scrollbar {
         margin: 0;
         padding: 10px; }
         #nav .nav-field #nav-list li a {
-          text-decoration: none; }
+          color: #333; }
 
 #toggle {
   display: none; }

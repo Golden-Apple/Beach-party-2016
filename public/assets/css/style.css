@@ -66,3 +66,7 @@ body{
 	content: "\e600";
 	color: pink;
 }
+
+.icon-043::before {
+	content: "\e62a";
+}

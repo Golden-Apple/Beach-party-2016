@@ -19706,8 +19706,8 @@ var Nav = function (_React$Component) {
 					{ id: 'toggle' },
 					_react2.default.createElement(
 						'a',
-						{ href: '#' },
-						'menu'
+						null,
+						_react2.default.createElement('span', { className: 'icon-043' })
 					)
 				),
 				_react2.default.createElement(
