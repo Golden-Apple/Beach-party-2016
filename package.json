@@ -17,6 +17,7 @@
     "babelify": "^7.3.0",
     "google-map-react": "^0.13.0",
     "react": "^15.1.0",
+    "react-bootstrap": "^0.29.4",
     "react-dom": "^15.1.0",
     "react-google-maps": "^4.11.0"
   }

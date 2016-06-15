@@ -3,6 +3,36 @@ body::-webkit-scrollbar {
 	display:none;
 }
 
+#nav {
+	background-color: #20b2aa;
+	height: 70px;
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+
+	.nav-field {
+		height: 100%;
+		position: relative;
+		width: 100%;
+	}
+
+	.nav-list {
+		bottom: 0;
+		font-size: 15pt;
+		margin: 0;
+		padding-left: 30px;
+		position: absolute;
+		top: 0;
+
+		.nav-title {
+		}
+
+		li {
+			display: inline-block;
+		}
+	}
+}
+
 .heading {
 	border-left: ridge 10px #202d3b;
 	border-bottom: solid 2px #202d3b;

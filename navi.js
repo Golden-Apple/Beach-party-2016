@@ -23867,16 +23867,7 @@ var Map = function (_React$Component) {
 						_react2.default.createElement(
 							_reactGoogleMaps.InfoWindow,
 							null,
-							'ここに売店があるよ'
-						)
-					),
-					_react2.default.createElement(
-						_reactGoogleMaps.Marker,
-						{ defaultPosition: { lat: 26.222145, lng: 127.667405 }, defaultIcon: '/assets/image/item-sisa.png' },
-						_react2.default.createElement(
-							_reactGoogleMaps.InfoWindow,
-							null,
-							'ここが会場だよ'
+							'ここだよーん'
 						)
 					)
 				)
@@ -23911,15 +23902,9 @@ module.exports=[
       { "hue": "#ff4400" }
     ]
   },{
-    "featureType": "transit"
-	}, {
-    "featureType": "water",
-    "stylers": [
-      { "hue": "#0077ff" }
-    ]
-  }
+    "featureType": "transit"  }
 ]
 
 },{}]},{},[215]);
 
-//# sourceMappingURL=app.js.map
+//# sourceMappingURL=navi.js.map

@@ -15,7 +15,10 @@ class Map extends React.Component {
 				googleMapElement={
 					<GoogleMap containerProps={this.props} defaultZoom={16} defaultCenter={{ lat: 26.220658, lng: 127.664787 }} defaultOptions={{styles: require(`../json/MapStyle.json`),}}>
 						<Marker defaultPosition={{ lat: 26.220658, lng: 127.664787 }} defaultIcon={'/assets/image/item-sisa.png'} >
-							<InfoWindow>ここだよーん</InfoWindow>
+							<InfoWindow>ここに売店があるよ</InfoWindow>
+						</Marker>
+						<Marker defaultPosition={{ lat: 26.222145, lng: 127.667405 }} defaultIcon={'/assets/image/item-sisa.png'} >
+							<InfoWindow>ここが会場だよ</InfoWindow>
 						</Marker>
 					</GoogleMap>
 				}

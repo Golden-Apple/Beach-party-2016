@@ -21,7 +21,7 @@
 
 	</head>
 	<body class="no-thank-yu">
-		<header role="document" data-spy="scroll" data-target="#sampleScrollSpy" data-offset="72">
+		<!-- <header role="document" data-spy="scroll" data-target="#sampleScrollSpy" data-offset="72">
 			<div id="sampleScrollSpy">
 				<nav class="navbar navbar-default navbar-fixed-top">
 					<div class="container-fluid">
@@ -36,15 +36,18 @@
 						<div class="collapse navbar-collapse" id="menu">
 							<ul class="nav navbar-nav">
 
-								<li><a href="#">TOP</a></li>
+								<li><a href="/">TOP</a></li>
 								<li><a href="#info">詳細</a></li>
 								<li><a href="#entry">申し込みフォーム</a></li>
 								<li><a href="#contact">問い合わせ</a></li>
 							</ul>
 						</div>
 					</div>
-				</div>
-			</nav>
+				</nav>
+			</div>
+		</header> -->
+		<header id="nav">
+
 		</header>
 
 		@yield('content')
@@ -58,6 +61,10 @@
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 		<script type="text/javascript">
 			new WOW().init();
+		</script>
+
+		<script type="text/javascript" src="js/navi.js">
+
 		</script>
 	</body>
 </html>
