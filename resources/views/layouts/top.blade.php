@@ -6,10 +6,12 @@
 		<div class="top-contents">
 			<p>CRUD Lab. BEACH PARTY 2016!!!</p>
 			<p>2016/7/9(sat)</p>
-			<p>波の上うみそら公園</p>
+			<p>波の上うみそら公園<span class="icon-001"></span>
+			</p>
 
 			<button type="button" class="btn btn-default"><a href="#info">詳細はこちら</a></button>
 		</div>
+
 	</div>
 </div>
 

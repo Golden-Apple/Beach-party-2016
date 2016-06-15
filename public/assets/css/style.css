@@ -1,3 +1,5 @@
+
+
 html{
 	height: 100%;
 	width: 100%;
@@ -11,8 +13,6 @@ body{
 	width: 100%;
 	height: 100%;
 	padding: 10px 0;
-	margin-top: 50px;
-
 }
 
 .top-image{
@@ -34,4 +34,35 @@ body{
 	font-weight: bold;
 	color: #fff;
 	text-shadow: 0 1px 5px rgba(0, 0, 0, 0.9);
+}
+
+
+@font-face {
+  font-family: 'captainicon';
+  src: url('../fonts/captainicon-webfont.eot?-1i2a56');
+  src: url('../fonts/captainicon-webfont.eot?#iefix-1i2a56') format('embedded-opentype'),
+  		url('../fonts/captainicon.woff?-1i2a56') format('woff'),
+  		url('../fonts/captainicon.ttf?-1i2a56') format('truetype'),
+  		url('../fonts/captainicon.svg?-1i2a56#captainicon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'captainicon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-001:before {
+	content: "\e600";
+	color: pink;
 }
