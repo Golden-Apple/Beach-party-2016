@@ -68,7 +68,6 @@
 								連絡先: xxx-xxxx-xxxx
 							</div>
 						</div>
-
 					</div>
 				</div>
 

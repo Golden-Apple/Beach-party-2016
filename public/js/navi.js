@@ -19741,7 +19741,7 @@ var Nav = function (_React$Component) {
 							'a',
 							{ className: 'list-a', href: '#entry' },
 							_react2.default.createElement('span', { className: 'icon-051' }),
-							'form'
+							'join'
 						)
 					),
 					_react2.default.createElement(
