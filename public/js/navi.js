@@ -19705,8 +19705,9 @@ var Nav = function (_React$Component) {
 					'div',
 					{ id: 'toggle' },
 					_react2.default.createElement(
-						'a',
+						'p',
 						null,
+						'びーちぱーりぃ',
 						_react2.default.createElement('span', { className: 'icon-043' })
 					)
 				),
