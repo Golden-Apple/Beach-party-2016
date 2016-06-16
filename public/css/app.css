@@ -2,9 +2,10 @@ body::-webkit-scrollbar {
   display: none; }
 
 #nav {
-  border: solid 2px #20b2aa;
-  height: 70px;
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 10vh;
   position: fixed;
+  top: 0;
   width: 100%;
   z-index: 100; }
   #nav .nav-field {
@@ -21,9 +22,10 @@ body::-webkit-scrollbar {
         margin: 0;
         padding: 10px; }
         #nav .nav-field #nav-list li a {
-          color: #333; }
+          color: #007bbb; }
 
 #toggle {
+  color: #007bbb;
   display: none;
   font-size: 15pt;
   height: 100%;
@@ -43,6 +45,12 @@ body::-webkit-scrollbar {
       width: 100%; }
   #toggle {
     display: block; } }
+
+#info {
+  padding-top: 10vh; }
+
+#contact {
+  padding-top: 10vh; }
 
 .heading {
   border-left: ridge 10px #202d3b;

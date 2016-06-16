@@ -13,7 +13,7 @@ class Nav extends React.Component {
 				<ul id="nav-list">
 					<li><a href="/">top</a></li>
 					<li><a href="#info">info</a></li>
-					<li><a href="#form">form</a></li>
+					<li><a href="#entry">form</a></li>
 					<li><a href="#contact">contact</a></li>
 				</ul>
 			</div>
