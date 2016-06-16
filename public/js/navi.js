@@ -19716,11 +19716,6 @@ var Nav = function (_React$Component) {
 					{ id: 'nav-list' },
 					_react2.default.createElement(
 						'li',
-						{ className: 'nav-title' },
-						'びーちぱーりぃ'
-					),
-					_react2.default.createElement(
-						'li',
 						null,
 						_react2.default.createElement(
 							'a',

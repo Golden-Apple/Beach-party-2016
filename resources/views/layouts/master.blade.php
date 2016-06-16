@@ -46,25 +46,22 @@
 				</nav>
 			</div>
 		</header> -->
-		<header id="nav">
-
-		</header>
+		<header id="nav"></header>
 
 		@yield('content')
 		@yield('info')
 		@yield('entry')
 		@yield('contact')
 
-		<footer class="footer">
-		</footer>
+		<footer class="footer"></footer>
 
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 		<script type="text/javascript">
 			new WOW().init();
 		</script>
 
-		<script type="text/javascript" src="js/navi.js">
+		<script type="text/javascript" src="js/navi.js"></script>
 
-		</script>
+		<script type="text/javascript" src="{{{asset('/assets/js/toggle.js')}}}"></script>
 	</body>
 </html>
