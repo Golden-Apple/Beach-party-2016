@@ -61,11 +61,27 @@ body{
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.icon-043::before {
+	content: "\e62a";
+}
+
+.icon-051::before {
+	content: "\e632";
+}
+
+.icon-140::before {
+	content: "\e68b";
+}
+
 .icon-158:before {
 	content: "\e69d";
 	color: pink;
 }
 
-.icon-043::before {
-	content: "\e62a";
+.icon-194::before {
+	content: "\e6c1";
+}
+
+.icon-313::before {
+	content: "\e738";
 }
