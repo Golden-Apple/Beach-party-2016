@@ -13,7 +13,7 @@ body::-webkit-scrollbar {
 	.nav-field {
 		height: 100%;
 
-		.nav-list {
+		#nav-list {
 			height: 100%;
 			margin: 0;
 			padding: 10px;
@@ -27,12 +27,41 @@ body::-webkit-scrollbar {
 				padding: 10px;
 
 				a {
-					text-decoration: none;
+					color: #333;
 				}
 			}
 		}
 	}
+}
 
+#toggle {
+	display: none;
+	font-size: 15pt;
+	height: 100%;
+	padding: 10px;
+
+	p {
+		margin: 10px;
+
+		.icon-043 {
+			font-size: 20pt;
+			height: 100%;
+			position: absolute;
+			right: 20px;
+		}
+	}
+
+
+}
+
+@media only screen and (max-width: 480px) {
+	#nav-list {
+		display: none;
+	}
+
+		#toggle {
+			display: block;
+		}
 
 }
 

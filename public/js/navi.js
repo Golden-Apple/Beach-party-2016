@@ -19702,8 +19702,18 @@ var Nav = function (_React$Component) {
 				'div',
 				{ className: 'nav-field' },
 				_react2.default.createElement(
+					'div',
+					{ id: 'toggle' },
+					_react2.default.createElement(
+						'p',
+						null,
+						'びーちぱーりぃ',
+						_react2.default.createElement('span', { className: 'icon-043' })
+					)
+				),
+				_react2.default.createElement(
 					'ul',
-					{ className: 'nav-list' },
+					{ id: 'nav-list' },
 					_react2.default.createElement(
 						'li',
 						{ className: 'nav-title' },
