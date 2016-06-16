@@ -5,7 +5,7 @@ body::-webkit-scrollbar {
 
 #nav {
 	background-color: rgba(255,255,255,.5);
-	height: 10vh;
+	height: 70px;
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -16,8 +16,6 @@ body::-webkit-scrollbar {
 
 		#nav-list {
 			height: 100%;
-			margin: 0;
-			padding: 10px;
 			width: 100%;
 
 			li {
@@ -25,13 +23,17 @@ body::-webkit-scrollbar {
 				float: left;
 				font-size: 15pt;
 				margin: 0;
-				padding: 10px;
+				padding: 20px;
 
 				a {
 					color: #007bbb;
 				}
 			}
 		}
+	}
+
+	.icon-051, .icon-140, .icon-194, .icon-313 {
+		margin-right: 10px;
 	}
 }
 
@@ -52,30 +54,39 @@ body::-webkit-scrollbar {
 			right: 20px;
 		}
 	}
-
-
 }
 
 @media only screen and (max-width: 480px) {
-	#nav-list {
-		display: none;
 
-		li {
-			width: 100%;
+	#nav {
+		background-color: #202d3b;
+
+		#nav-list {
+			display: none;
+			margin: 0;
+			padding: 0;
+
+			li {
+				background-color: #202d3b;
+				border-bottom: solid 2px #ffffff;
+				margin: 0;
+				width: 100%;
+
+				a {
+					color: #f9f9f9;
+				}
+			}
 		}
 	}
 
-		#toggle {
-			display: block;
-		}
+	#toggle {
+		display: block;
+		color: #ffffff;
+	}
 }
 
-#info{
-	padding-top: 10vh;
-}
-
-#contact {
-	padding-top: 10vh; 
+#info, #entry, #contact {
+	padding-top: 70px;
 }
 
 .heading {
@@ -131,15 +142,7 @@ body::-webkit-scrollbar {
 	border-radius: 300px;
 }
 
-.member {
-	margin-top: 20px;
-}
-
-.profile {
-	margin-top: 20px;
-}
-
-#btn-contact {
+.member, .profile, #btn-contact {
 	margin-top: 20px;
 }
 
@@ -158,8 +161,6 @@ body::-webkit-scrollbar {
 
 .footer {
 	background-color: #202d3b;
-	color: #ffffff;
 	height: 50px;
 	padding: 10px;
-	text-align: center;
 }
