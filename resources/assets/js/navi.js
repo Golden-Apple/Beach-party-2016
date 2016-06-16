@@ -11,7 +11,6 @@ class Nav extends React.Component {
 			<div className="nav-field">
 				<div id="toggle"><p>びーちぱーりぃ<span className="icon-043"></span></p></div>
 				<ul id="nav-list">
-					<li className="nav-title">びーちぱーりぃ</li>
 					<li><a href="/">top</a></li>
 					<li><a href="#info">info</a></li>
 					<li><a href="#form">form</a></li>
