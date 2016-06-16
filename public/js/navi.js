@@ -19719,7 +19719,7 @@ var Nav = function (_React$Component) {
 						null,
 						_react2.default.createElement(
 							'a',
-							{ href: '/' },
+							{ className: 'list-a', href: '/' },
 							_react2.default.createElement('span', { className: 'icon-194' }),
 							'top'
 						)
@@ -19729,7 +19729,7 @@ var Nav = function (_React$Component) {
 						null,
 						_react2.default.createElement(
 							'a',
-							{ href: '#info' },
+							{ className: 'list-a', href: '#info' },
 							_react2.default.createElement('span', { className: 'icon-313' }),
 							'info'
 						)
@@ -19739,9 +19739,9 @@ var Nav = function (_React$Component) {
 						null,
 						_react2.default.createElement(
 							'a',
-							{ href: '#entry' },
+							{ className: 'list-a', href: '#entry' },
 							_react2.default.createElement('span', { className: 'icon-051' }),
-							'form'
+							'join'
 						)
 					),
 					_react2.default.createElement(
@@ -19749,7 +19749,7 @@ var Nav = function (_React$Component) {
 						null,
 						_react2.default.createElement(
 							'a',
-							{ href: '#contact' },
+							{ className: 'list-a', href: '#contact' },
 							_react2.default.createElement('span', { className: 'icon-140' }),
 							'contact'
 						)
