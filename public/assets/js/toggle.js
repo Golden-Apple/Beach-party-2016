@@ -10,6 +10,7 @@ $(function () {
 
 		if (w_width > p) {
 			$('#nav-list').show();
+			$('#nav-list').css('padding', '0');
 		} else {
 			$('#nav-list').hide();
 		}

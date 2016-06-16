@@ -15,7 +15,6 @@
 	</div>
 </div>
 
-<hr>
 @endsection
 
 @include('layouts.info')
