@@ -12,9 +12,9 @@
 			<div class="row">
 				<ul class="col-md-8 list-group info-list">
 					<li class="list-group-item">日時: 7月9日(土) 15:00 ~ 19:00</li>
-					<li class="list-group-item">場所: うみそら公園</li>
-					<li class="list-group-item">参加費: きっと無料</li>
-					<li class="list-group-item">持ち物: 飲みたいお酒など ※瓶NG</li>
+					<li class="list-group-item">場所: 波の上うみそら公園</li>
+					<li class="list-group-item">参加費: 無料(表現がいまいち...)</li>
+					<li class="list-group-item">持ち物: 飲み物 ※瓶NG</li>
 					<img src="{{{asset('/assets/image/konko/list-konko.png')}}}" alt="" />
 				</ul>
 			</div>
@@ -25,7 +25,7 @@
 				<div class="col-md-12 col-xs-12" id="map"></div>
 			</div>
 
-			<a id="btn-contact" href="#entry" class="center-block btn btn-success btn-lg wow bounceIn">エントリーする</a>
+			<a id="btn-contact" href="#entry" class="center-block btn btn-success btn-lg wow bounceIn">参加する?</a>
 
 			<div class="row responsible">
 
@@ -38,12 +38,20 @@
 						<div class="row text-center">
 							<div class="col-md-12">
 								<a>
-									<img src="{{{asset('assets/image/thumbnail.png')}}}" alt="かぼちゃ" class="thumbnail-img wow hinge" />
+									<img src="{{{asset('assets/image/kiyono.jpg')}}}" alt="かぼちゃ" class="thumbnail-img wow hinge" />
 								</a>
 							</div>
 							<div class="col-md-12 profile">
-								<h4>かぼちゃよん。</h4>
-								連絡先: xxx-xxxx-xxxx
+								<h4>島袋清乃
+									<a href="https://www.facebook.com/kaboshima"><span class="icon-092"></span></a>
+									<a href="https://www.instagram.com/kabotya155/"><span class="icon-026"></span></a>
+								</h4>
+								<div class="profile-info">
+									<ul>
+										<li>生息地: 読谷</li>
+										<li>連絡先: xxx-xxxx-xxxx</li>
+									</ul>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -52,7 +60,7 @@
 						<div class="row text-center">
 							<div class="col-md-12">
 								<a>
-									<img src="{{{asset('assets/image/thumbnail.png')}}}" alt="しおん" class="thumbnail-img" />
+									<img src="{{{asset('assets/image/thumbnail.png')}}}" alt="しおん" class="thumbnail-img wow wobble" data-wow-iteration="10" data-wow-duration="0.15s"/>
 								</a>
 							</div>
 							<div class="col-md-12 profile">

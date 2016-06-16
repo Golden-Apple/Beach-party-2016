@@ -61,12 +61,20 @@ body{
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.icon-026::before {
+	content: "\e619";
+}
+
 .icon-043::before {
 	content: "\e62a";
 }
 
 .icon-051::before {
 	content: "\e632";
+}
+
+.icon-092::before {
+	content: "\e65b";
 }
 
 .icon-140::before {
