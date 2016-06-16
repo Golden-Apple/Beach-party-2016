@@ -19737,7 +19737,7 @@ var Nav = function (_React$Component) {
 						null,
 						_react2.default.createElement(
 							'a',
-							{ href: '#form' },
+							{ href: '#entry' },
 							'form'
 						)
 					),
