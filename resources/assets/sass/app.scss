@@ -85,7 +85,7 @@ body::-webkit-scrollbar {
 			padding: 0;
 
 			li {
-				background-color: #202d3b;
+				background-color: #193452;
 				border-bottom: solid 2px #ffffff;
 				margin: 0;
 				width: 100%;
@@ -101,7 +101,11 @@ body::-webkit-scrollbar {
 				}
 
 				&:hover {
-					background-color: #2d4f82;
+					background-color: #fff;
+
+					a {
+						color: #193452;
+					}
 				}
 			}
 		}
