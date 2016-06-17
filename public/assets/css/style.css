@@ -67,6 +67,7 @@ body{
 
 .icon-043::before {
 	content: "\e62a";
+	font-size: 20pt;
 }
 
 .icon-051::before {

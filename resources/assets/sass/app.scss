@@ -44,10 +44,22 @@ body::-webkit-scrollbar {
 		margin: 10px;
 
 		.icon-043 {
-			font-size: 20pt;
-			height: 100%;
+			border: solid 1px #666;
+			border-radius: 10px;
+			padding: 10px;
 			position: absolute;
 			right: 20px;
+			top: 10px;
+			transform: translateZ(0);
+			backface-visibility: hidden;
+			-moz-osx-font-smoothing: grayscale;
+			overflow: hidden;
+			transition-duration: 0.3s;
+			transition-property: background-color;
+
+			&:hover {
+				background-color: rgba(#5b798e,.5);
+			}
 		}
 	}
 }
