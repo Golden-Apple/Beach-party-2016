@@ -25,7 +25,9 @@
 				<div class="col-md-12 col-xs-12" id="map"></div>
 			</div>
 
-			<a id="btn-contact" href="#entry" class="center-block btn btn-success btn-lg wow bounceIn">参加する?</a>
+			<div class="row">
+				<a id="btn-contact" href="#entry" class="col-md-offset-3 col-xs-offset-3 col-md-6 btn btn-success btn-lg wow bounceIn">参加する?</a>
+			</div>
 
 			<div class="row responsible">
 
@@ -71,7 +73,7 @@
 					</div>
 				</div>
 
-				<a id="btn-contact" href="#contact" class="center-block btn btn-primary btn-lg wow zoomIn">お問い合わせはこちら</a>
+				<a id="btn-contact" href="#contact" class="col-md-offset-3 col-xs-offset-3 col-md-6 btn btn-primary btn-lg wow zoomIn">お問い合わせはこちら</a>
 			</div>
 		</div>
 
