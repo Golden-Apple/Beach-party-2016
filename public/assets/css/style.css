@@ -10,42 +10,35 @@ body{
 .top-header{
 	width: 100%;
 	height: 100%;
+	/*background:no-repeat url(/assets/vegas/beach.jpg);*/
 }
 
 .top-image{
 	height: 100%;
 	display: table;
-	background-repeat: no-repeat;
-	background-size:cover;
-	background-image: url(/assets/image/beach.jpg);
-	background-position: center center;
-	background-attachment: fixed;
-	margin-top: 1px;
-	padding: 5px 0;
+	background: no-repeat cover center center fixed;
 }
 
+
 .top-contents{
-	position: relative;
+	position: absolute;
 	text-align: center;
 	display: table-cell;
-	text-align: center;
-	vertical-align: middle;
 	font-size: 3em;
 	font-weight: bold;
 	color: #fff;
 	text-shadow: 0 1px 5px rgba(0, 0, 0, 0.9);
 }
 
-
 @font-face {
-  font-family: 'captainicon';
-  src: url('../fonts/captainicon-webfont.eot?-1i2a56');
-  src: url('../fonts/captainicon-webfont.eot?#iefix-1i2a56') format('embedded-opentype'),
-  		url('../fonts/captainicon.woff?-1i2a56') format('woff'),
-  		url('../fonts/captainicon.ttf?-1i2a56') format('truetype'),
-  		url('../fonts/captainicon.svg?-1i2a56#captainicon') format('svg');
-  font-weight: normal;
-  font-style: normal;
+	font-family: 'captainicon';
+	src: url('../fonts/captainicon-webfont.eot?-1i2a56');
+	src: url('../fonts/captainicon-webfont.eot?#iefix-1i2a56') format('embedded-opentype'),
+			url('../fonts/captainicon.woff?-1i2a56') format('woff'),
+			url('../fonts/captainicon.ttf?-1i2a56') format('truetype'),
+			url('../fonts/captainicon.svg?-1i2a56#captainicon') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
 [class^="icon-"], [class*=" icon-"] {
@@ -87,8 +80,6 @@ body{
 	content: "\e69d";
 	color: pink;
 }
-<<<<<<< HEAD
-=======
 
 .icon-194::before {
 	content: "\e6c1";
@@ -97,4 +88,3 @@ body{
 .icon-313::before {
 	content: "\e738";
 }
->>>>>>> 2e324ed1bd0a334fb7d292f518800ce54a463f45
