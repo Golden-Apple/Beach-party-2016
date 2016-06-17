@@ -31,10 +31,20 @@ body::-webkit-scrollbar {
   #toggle p {
     margin: 10px; }
     #toggle p .icon-043 {
-      font-size: 20pt;
-      height: 100%;
+      border: solid 1px #666;
+      border-radius: 10px;
+      padding: 10px;
       position: absolute;
-      right: 20px; }
+      right: 20px;
+      top: 10px;
+      transform: translateZ(0);
+      backface-visibility: hidden;
+      -moz-osx-font-smoothing: grayscale;
+      overflow: hidden;
+      transition-duration: 0.3s;
+      transition-property: background-color; }
+      #toggle p .icon-043:hover {
+        background-color: rgba(91, 121, 142, 0.5); }
 
 @media only screen and (max-width: 1500px) {
   .list-a {

@@ -23853,7 +23853,7 @@ var Map = function (_React$Component) {
 		var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(Map).call(this, props, context));
 
 		_this.state = {
-			origin: new google.maps.LatLng(26.220658, 127.664787),
+			origin: new google.maps.LatLng(26.220253, 127.664808),
 			destination: new google.maps.LatLng(26.211890, 127.675455),
 			directions: null
 		};
@@ -23888,11 +23888,11 @@ var Map = function (_React$Component) {
 				containerElement: _react2.default.createElement('div', { style: { height: "100%" } }),
 				googleMapElement: _react2.default.createElement(
 					_reactGoogleMaps.GoogleMap,
-					{ containerProps: this.props, defaultZoom: 16, defaultCenter: { lat: 26.220658, lng: 127.664787 }, defaultOptions: { styles: require('../json/MapStyle.json') } },
+					{ containerProps: this.props, defaultZoom: 16, defaultCenter: { lat: 26.222145, lng: 127.667405 }, defaultOptions: { styles: require('../json/MapStyle.json') } },
 					this.state.directions ? _react2.default.createElement(_reactGoogleMaps.DirectionsRenderer, { directions: this.state.directions }) : null,
 					_react2.default.createElement(
 						_reactGoogleMaps.Marker,
-						{ defaultPosition: { lat: 26.220658, lng: 127.664787 }, defaultIcon: '/assets/image/item-sisa.png' },
+						{ defaultPosition: { lat: 26.220253, lng: 127.664808 }, defaultIcon: '/assets/image/item-sisa.png' },
 						_react2.default.createElement(
 							_reactGoogleMaps.InfoWindow,
 							null,
