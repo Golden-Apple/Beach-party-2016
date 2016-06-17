@@ -61,9 +61,17 @@ body::-webkit-scrollbar {
         background-color: #202d3b;
         border-bottom: solid 2px #ffffff;
         margin: 0;
-        width: 100%; }
+        width: 100%;
+        transform: translateZ(0);
+        backface-visibility: hidden;
+        -moz-osx-font-smoothing: grayscale;
+        overflow: hidden;
+        transition-duration: 0.3s;
+        transition-property: background-color; }
         #nav #nav-list li a {
           color: #f9f9f9; }
+        #nav #nav-list li:hover {
+          background-color: #2d4f82; }
   #toggle {
     display: block;
     color: #ffffff; } }

@@ -85,9 +85,19 @@ body::-webkit-scrollbar {
 				border-bottom: solid 2px #ffffff;
 				margin: 0;
 				width: 100%;
+				transform: translateZ(0);
+				backface-visibility: hidden;
+				-moz-osx-font-smoothing: grayscale;
+				overflow: hidden;
+				transition-duration: 0.3s;
+				transition-property: background-color;
 
 				a {
 					color: #f9f9f9;
+				}
+
+				&:hover {
+					background-color: #2d4f82;
 				}
 			}
 		}
