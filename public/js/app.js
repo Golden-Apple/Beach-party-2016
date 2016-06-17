@@ -23888,17 +23888,8 @@ var Map = function (_React$Component) {
 				containerElement: _react2.default.createElement('div', { style: { height: "100%" } }),
 				googleMapElement: _react2.default.createElement(
 					_reactGoogleMaps.GoogleMap,
-					{ containerProps: this.props, defaultZoom: 16, defaultCenter: { lat: 26.222145, lng: 127.667405 }, defaultOptions: { styles: require('../json/MapStyle.json') } },
+					{ containerProps: this.props, defaultZoom: 16, defaultCenter: { lat: 24.222145, lng: 127.667405 }, defaultOptions: { styles: require('../json/MapStyle.json') } },
 					this.state.directions ? _react2.default.createElement(_reactGoogleMaps.DirectionsRenderer, { directions: this.state.directions }) : null,
-					_react2.default.createElement(
-						_reactGoogleMaps.Marker,
-						{ defaultPosition: { lat: 26.220253, lng: 127.664808 }, defaultIcon: '/assets/image/item-sisa.png' },
-						_react2.default.createElement(
-							_reactGoogleMaps.InfoWindow,
-							null,
-							'ここに売店があるよ'
-						)
-					),
 					_react2.default.createElement(
 						_reactGoogleMaps.Marker,
 						{ defaultPosition: { lat: 26.222145, lng: 127.667405 }, defaultIcon: '/assets/image/item-sisa.png' },
@@ -23921,30 +23912,36 @@ _reactDom2.default.render(_react2.default.createElement(Map, null), document.get
 },{"../json/MapStyle.json":216,"react":213,"react-dom":30,"react-google-maps":67}],216:[function(require,module,exports){
 module.exports=[
   {
+    "featureType": "water",
     "stylers": [
-      { "hue": "#ff9900" }
-    ]
-  },{
-    "featureType": "road.arterial",
-    "stylers": [
-      { "hue": "#91ff00" }
-    ]
-  },{
-    "featureType": "landscape.man_made",
-    "stylers": [
-      { "hue": "#ff6600" }
+      { "hue": "#00b2ff" }
     ]
   },{
     "featureType": "administrative",
     "stylers": [
-      { "hue": "#ff4400" }
+      { "hue": "#00ffc4" }
     ]
   },{
-    "featureType": "transit"
-	}, {
-    "featureType": "water",
+    "featureType": "landscape",
     "stylers": [
-      { "hue": "#0077ff" }
+      { "hue": "#08ff00" },
+      { "saturation": 100 }
+    ]
+  },{
+    "featureType": "poi",
+    "stylers": [
+      { "hue": "#00ff5e" }
+    ]
+  },{
+    "featureType": "road",
+    "stylers": [
+      { "hue": "#08ff00" },
+      { "saturation": -29 }
+    ]
+  },{
+    "featureType": "transit",
+    "stylers": [
+      { "hue": "#00ff11" }
     ]
   }
 ]

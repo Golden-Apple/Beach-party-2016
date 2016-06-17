@@ -1,29 +1,35 @@
 [
   {
+    "featureType": "water",
     "stylers": [
-      { "hue": "#ff9900" }
-    ]
-  },{
-    "featureType": "road.arterial",
-    "stylers": [
-      { "hue": "#91ff00" }
-    ]
-  },{
-    "featureType": "landscape.man_made",
-    "stylers": [
-      { "hue": "#ff6600" }
+      { "hue": "#00b2ff" }
     ]
   },{
     "featureType": "administrative",
     "stylers": [
-      { "hue": "#ff4400" }
+      { "hue": "#00ffc4" }
     ]
   },{
-    "featureType": "transit"
-	}, {
-    "featureType": "water",
+    "featureType": "landscape",
     "stylers": [
-      { "hue": "#0077ff" }
+      { "hue": "#08ff00" },
+      { "saturation": 100 }
+    ]
+  },{
+    "featureType": "poi",
+    "stylers": [
+      { "hue": "#00ff5e" }
+    ]
+  },{
+    "featureType": "road",
+    "stylers": [
+      { "hue": "#08ff00" },
+      { "saturation": -29 }
+    ]
+  },{
+    "featureType": "transit",
+    "stylers": [
+      { "hue": "#00ff11" }
     ]
   }
 ]
