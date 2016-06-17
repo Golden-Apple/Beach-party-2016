@@ -19,6 +19,8 @@ body::-webkit-scrollbar {
         font-size: 15pt;
         margin: 0;
         padding: 20px; }
+        #nav .nav-field #nav-list li a {
+          text-decoration: none; }
   #nav .icon-051, #nav .icon-140, #nav .icon-194, #nav .icon-313 {
     margin-right: 10px; }
 
