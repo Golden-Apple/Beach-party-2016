@@ -20,7 +20,7 @@
 		<link rel="stylesheet" href="css/app.css">
 
 	</head>
-	<body class="no-thank-yu">
+	<body>
 		<header id="nav"></header>
 
 		@yield('content')
