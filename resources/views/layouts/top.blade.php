@@ -1,8 +1,8 @@
 @extends('layouts.master')
 @section('content')
 
-<div class="top-header fixed-content">
-	<div class="container top-image col-sm-12 col-md-12 col-lg-12">
+<div class="top-header">
+	<div class="container col-sm-12 col-md-12 col-lg-12 top-image">
 		<div class="top-contents">
 			<p>CRUD Lab. BEACH PARTY 2016!!!</p>
 			<p>2016/7/9(sat)</p>
@@ -14,10 +14,7 @@
 	</div>
 </div>
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 2e324ed1bd0a334fb7d292f518800ce54a463f45
 @endsection
 
 @include('layouts.info')
