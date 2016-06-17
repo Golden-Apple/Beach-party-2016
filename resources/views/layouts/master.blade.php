@@ -25,7 +25,7 @@
 
 		@yield('content')
 		@yield('info')
-		@yield('entry')
+		@yield('join')
 		@yield('contact')
 
 		<footer class="footer"></footer>

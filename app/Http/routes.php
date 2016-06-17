@@ -25,7 +25,7 @@ Route::get('/info', function () {
 });
 
 
-Route::get('/entry', function () {
+Route::get('/join', function () {
     return view('layouts.entry');
 });
 

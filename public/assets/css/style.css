@@ -25,6 +25,7 @@ body{
 }
 
 .top-contents{
+	position: relative;
 	text-align: center;
 	display: table-cell;
 	text-align: center;
@@ -85,6 +86,8 @@ body{
 	content: "\e69d";
 	color: pink;
 }
+<<<<<<< HEAD
+=======
 
 .icon-194::before {
 	content: "\e6c1";
@@ -93,3 +96,4 @@ body{
 .icon-313::before {
 	content: "\e738";
 }
+>>>>>>> 2e324ed1bd0a334fb7d292f518800ce54a463f45
