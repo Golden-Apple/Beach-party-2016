@@ -61,9 +61,17 @@ body::-webkit-scrollbar {
         background-color: #202d3b;
         border-bottom: solid 2px #ffffff;
         margin: 0;
-        width: 100%; }
+        width: 100%;
+        transform: translateZ(0);
+        backface-visibility: hidden;
+        -moz-osx-font-smoothing: grayscale;
+        overflow: hidden;
+        transition-duration: 0.3s;
+        transition-property: background-color; }
         #nav #nav-list li a {
           color: #f9f9f9; }
+        #nav #nav-list li:hover {
+          background-color: #2d4f82; }
   #toggle {
     display: block;
     color: #ffffff; } }
@@ -132,6 +140,18 @@ body::-webkit-scrollbar {
 .footer {
   background-color: #202d3b;
   height: 50px;
-  padding: 10px; }
+  position: absolute;
+  width: 100%;
+  z-index: 100; }
+  .footer .konko {
+    background-image: url("/assets/image/konko/footer-konko.png");
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    right: 10px;
+    height: 99px;
+    top: -100px;
+    width: 100px; }
 
 /*# sourceMappingURL=app.css.map */
