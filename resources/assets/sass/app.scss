@@ -24,6 +24,10 @@ body::-webkit-scrollbar {
 				font-size: 15pt;
 				margin: 0;
 				padding: 20px;
+
+				a {
+					text-decoration: none;
+				}
 			}
 		}
 	}
