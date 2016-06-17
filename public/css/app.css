@@ -140,6 +140,18 @@ body::-webkit-scrollbar {
 .footer {
   background-color: #202d3b;
   height: 50px;
-  padding: 10px; }
+  position: absolute;
+  width: 100%;
+  z-index: 100; }
+  .footer .konko {
+    background-image: url("/assets/image/konko/footer-konko.png");
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    right: 10px;
+    height: 99px;
+    top: -100px;
+    width: 100px; }
 
 /*# sourceMappingURL=app.css.map */
