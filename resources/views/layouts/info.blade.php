@@ -10,7 +10,7 @@
 
 		<div class="container info-contents">
 			<div class="row">
-				<ul class="col-md-8 list-group info-list">
+				<ul class="col-md-offset-2 col-md-8 list-group info-list">
 					<li class="list-group-item">日時: 7月9日(土) 15:00 ~ 19:00</li>
 					<li class="list-group-item">場所: 波の上うみそら公園</li>
 					<li class="list-group-item">参加費: 無料(表現がいまいち...)</li>
@@ -26,7 +26,7 @@
 			</div>
 
 			<div class="row">
-				<a id="btn-contact" href="#entry" class="col-md-offset-3 col-xs-offset-3 col-md-6 btn btn-success btn-lg wow bounceIn">参加する?</a>
+				<a id="btn-contact" href="#entry" class="col-md-offset-3 col-xs-offset-3 col-md-6 col-xs-6 btn btn-success btn-lg wow bounceIn">参加する?</a>
 			</div>
 
 			<div class="row responsible">
@@ -73,7 +73,7 @@
 					</div>
 				</div>
 
-				<a id="btn-contact" href="#contact" class="col-md-offset-3 col-xs-offset-3 col-md-6 btn btn-primary btn-lg wow zoomIn">お問い合わせはこちら</a>
+				<a id="btn-contact" href="#contact" class="col-md-offset-3 col-xs-offset-2 col-md-6 col-xs-8 btn btn-primary btn-lg wow zoomIn">お問い合わせはこちら</a>
 			</div>
 		</div>
 
