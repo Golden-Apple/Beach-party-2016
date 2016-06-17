@@ -23850,10 +23850,38 @@ var Map = function (_React$Component) {
 	function Map(props, context) {
 		_classCallCheck(this, Map);
 
-		return _possibleConstructorReturn(this, Object.getPrototypeOf(Map).call(this, props, context));
+		var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(Map).call(this, props, context));
+
+		_this.state = {
+			origin: new google.maps.LatLng(26.220658, 127.664787),
+			destination: new google.maps.LatLng(26.211890, 127.675455),
+			directions: null
+		};
+		return _this;
 	}
 
 	_createClass(Map, [{
+		key: 'componentDidMount',
+		value: function componentDidMount() {
+			var _this2 = this;
+
+			var DirectionsService = new google.maps.DirectionsService();
+
+			DirectionsService.route({
+				origin: this.state.origin,
+				destination: this.state.destination,
+				travelMode: google.maps.TravelMode.WALKING
+			}, function (result, status) {
+				if (status === google.maps.DirectionsStatus.OK) {
+					_this2.setState({
+						directions: result
+					});
+				} else {
+					console.error('error fetching directions ' + result);
+				}
+			});
+		}
+	}, {
 		key: 'render',
 		value: function render() {
 			return _react2.default.createElement(_reactGoogleMaps.GoogleMapLoader, {
@@ -23861,6 +23889,7 @@ var Map = function (_React$Component) {
 				googleMapElement: _react2.default.createElement(
 					_reactGoogleMaps.GoogleMap,
 					{ containerProps: this.props, defaultZoom: 16, defaultCenter: { lat: 26.220658, lng: 127.664787 }, defaultOptions: { styles: require('../json/MapStyle.json') } },
+					this.state.directions ? _react2.default.createElement(_reactGoogleMaps.DirectionsRenderer, { directions: this.state.directions }) : null,
 					_react2.default.createElement(
 						_reactGoogleMaps.Marker,
 						{ defaultPosition: { lat: 26.220658, lng: 127.664787 }, defaultIcon: '/assets/image/item-sisa.png' },

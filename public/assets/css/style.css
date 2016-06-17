@@ -62,7 +62,38 @@ body{
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.icon-026::before {
+	content: "\e619";
+}
+
+.icon-043::before {
+	content: "\e62a";
+}
+
+.icon-051::before {
+	content: "\e632";
+}
+
+.icon-092::before {
+	content: "\e65b";
+}
+
+.icon-140::before {
+	content: "\e68b";
+}
+
 .icon-158:before {
 	content: "\e69d";
 	color: pink;
 }
+<<<<<<< HEAD
+=======
+
+.icon-194::before {
+	content: "\e6c1";
+}
+
+.icon-313::before {
+	content: "\e738";
+}
+>>>>>>> 2e324ed1bd0a334fb7d292f518800ce54a463f45
