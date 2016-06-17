@@ -20,8 +20,7 @@
 			</div>
 
 			<div class="row accessmap wow slideInLeft">
-				<div class="col-md-offset-10 visible-md visible-lg konko">
-				</div>
+				<div class="col-md-offset-10 visible-md visible-lg konko"></div>
 				<div class="col-md-12 col-xs-12" id="map"></div>
 			</div>
 
