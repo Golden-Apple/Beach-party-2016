@@ -11,13 +11,12 @@
 
 			<button type="button" class="btn btn-default"><a href="#info">詳細はこちら</a></button>
 		</div>
-
 	</div>
 </div>
 
-<hr>
+
 @endsection
 
 @include('layouts.info')
-@include('layouts.entry')
+@include('layouts.join')
 @include('layouts.contact')

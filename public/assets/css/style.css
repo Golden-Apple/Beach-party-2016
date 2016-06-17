@@ -25,6 +25,7 @@ body{
 }
 
 .top-contents{
+	position: relative;
 	text-align: center;
 	display: table-cell;
 	text-align: center;
@@ -64,8 +65,4 @@ body{
 .icon-158:before {
 	content: "\e69d";
 	color: pink;
-}
-
-.icon-043::before {
-	content: "\e62a";
 }
