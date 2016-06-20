@@ -44,17 +44,19 @@
 						<div class="row text-center">
 							<div class="col-md-12">
 								<a>
-									<img src="{{{asset('assets/image/kiyono.jpg')}}}" alt="かぼちゃ" class="thumbnail-img wow hinge" />
+									<img src="{{{asset('assets/image/kiyono.jpg')}}}" alt="かぼちゃ" class="thumbnail-img wow flip" data-wow-iteration="10" data-wow-duration="0.15s"/>
 								</a>
 							</div>
 							<div class="col-md-12 profile">
-								<h4>島袋清乃
+								<h4>島袋 <RUBY><RB>清乃<RT>キヨノ</R></RT></RB></RUBY>
 									<a href="https://www.facebook.com/kaboshima"><span class="icon-092"></span></a>
 									<a href="https://www.instagram.com/kabotya155/"><span class="icon-026"></span></a>
 								</h4>
 								<div class="profile-info">
 									<ul>
-										<li>生息地: 読谷</li>
+										<li>ぶんぷち: 読谷</li>
+										<li>タイプ: クサ / ゴースト</li>
+										<li>誕生日: 1/15</li>
 										<li>連絡先: 090-9782-3127</li>
 									</ul>
 								</div>
