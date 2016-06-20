@@ -18,18 +18,19 @@ class Nav extends React.Component {
 					window.scrollTo( 0, 842 );
 					break;
 				}
-				window.scrollTo( 0, 686);
+				window.scrollTo( 0, 466);
 				break;
 			case "entry":
 				if ( screen.width > 480 ) {
-					window.scrollTo( 0, 2243 );
+					window.scrollTo( 0, 2337 );
 					break;
 				}
 				window.scrollTo( 0 , 2423 );
 				break;
 			case "contact":
 				if ( screen.width > 480 ) {
-					window.scrollTo( 0, 3418 );
+					console.log(window.pageYOffset)
+					window.scrollTo( 0, 3506 );
 					break;
 				}
 				window.scrollTo( 0, 3601 );
