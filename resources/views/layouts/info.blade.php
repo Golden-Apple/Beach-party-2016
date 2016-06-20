@@ -44,7 +44,7 @@
 						<div class="row text-center">
 							<div class="col-md-12">
 								<a>
-									<img src="{{{asset('assets/image/kiyono.jpg')}}}" alt="かぼちゃ" class="thumbnail-img wow hinge" />
+									<img src="{{{asset('assets/image/kiyono.jpg')}}}" alt="かぼちゃ" class="thumbnail-img wow flip" data-wow-iteration="10" data-wow-duration="0.15s"/>
 								</a>
 							</div>
 							<div class="col-md-12 profile">
