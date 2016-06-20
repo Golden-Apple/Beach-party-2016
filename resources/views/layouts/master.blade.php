@@ -12,12 +12,17 @@
 		<script type="text/javascript" src="{{{asset('/assets/umi/js/bootstrap.js')}}}"></script>
 		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAcrYYNSa7AfR1Okvly46kErNEXtuj2hPU"></script>
 
+		<script type="text/javascript" src="{{{asset('/assets/vegas/vegas.min.js')}}}"></script>
+		<script type="text/javascript" src="{{{asset('/assets/js/video.js')}}}"></script>
+
 		<!-- css -->
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 		<link rel="stylesheet" href="{{{asset('/assets/umi/css/bootstrap.css')}}}">
 		<link rel="stylesheet" href="{{{asset('/assets/css/style.css')}}}">
 		<link rel="stylesheet" href="css/animate.css">
 		<link rel="stylesheet" href="css/app.css">
+
+		<link rel="stylesheet" href="{{{asset('/assets/vegas/vegas.min.css')}}}">
 
 	</head>
 	<body>
