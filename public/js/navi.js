@@ -19696,45 +19696,8 @@ var Nav = function (_React$Component) {
 	}
 
 	_createClass(Nav, [{
-		key: 'scroll',
-		value: function scroll(nav) {
-
-			switch (nav) {
-				case "top":
-					window.scrollTo(0, 0);
-					break;
-				case "info":
-					if (screen.width > 480) {
-						window.scrollTo(0, 842);
-						break;
-					}
-					window.scrollTo(0, 466);
-					break;
-				case "entry":
-					if (screen.width > 480) {
-						window.scrollTo(0, 2337);
-						break;
-					}
-					window.scrollTo(0, 2423);
-					break;
-				case "contact":
-					if (screen.width > 480) {
-						console.log(window.pageYOffset);
-						window.scrollTo(0, 3506);
-						break;
-					}
-					window.scrollTo(0, 3601);
-					break;
-				default:
-					window.scrollTo(0, 0);
-
-			}
-		}
-	}, {
 		key: 'render',
 		value: function render() {
-			var _this2 = this;
-
 			return _react2.default.createElement(
 				'div',
 				{ className: 'nav-field' },
@@ -19753,48 +19716,40 @@ var Nav = function (_React$Component) {
 					{ id: 'nav-list' },
 					_react2.default.createElement(
 						'li',
-						{ onClick: function onClick() {
-								return _this2.scroll("top");
-							} },
+						null,
 						_react2.default.createElement(
 							'a',
-							{ className: 'list-a' },
+							{ className: 'list-a', href: '/' },
 							_react2.default.createElement('span', { className: 'icon-194' }),
 							'top'
 						)
 					),
 					_react2.default.createElement(
 						'li',
-						{ onClick: function onClick() {
-								return _this2.scroll("info");
-							} },
+						null,
 						_react2.default.createElement(
 							'a',
-							{ className: 'list-a' },
+							{ className: 'list-a', href: '#info' },
 							_react2.default.createElement('span', { className: 'icon-313' }),
 							'info'
 						)
 					),
 					_react2.default.createElement(
 						'li',
-						{ onClick: function onClick() {
-								return _this2.scroll("entry");
-							} },
+						null,
 						_react2.default.createElement(
 							'a',
-							{ className: 'list-a' },
+							{ className: 'list-a', href: '#entry' },
 							_react2.default.createElement('span', { className: 'icon-051' }),
 							'join'
 						)
 					),
 					_react2.default.createElement(
 						'li',
-						{ onClick: function onClick() {
-								return _this2.scroll("contact");
-							} },
+						null,
 						_react2.default.createElement(
 							'a',
-							{ className: 'list-a' },
+							{ className: 'list-a', href: '#contact' },
 							_react2.default.createElement('span', { className: 'icon-140' }),
 							'contact'
 						)
