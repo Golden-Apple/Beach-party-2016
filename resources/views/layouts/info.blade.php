@@ -65,12 +65,23 @@
 						<div class="row text-center">
 							<div class="col-md-12">
 								<a>
-									<img src="{{{asset('assets/image/thumbnail.png')}}}" alt="しおん" class="thumbnail-img wow wobble" data-wow-iteration="10" data-wow-duration="0.15s"/>
+									<img src="{{{asset('assets/image/shion.jpg')}}}" alt="しおん" class="thumbnail-img wow wobble" data-wow-iteration="10" data-wow-duration="0.15s"/>
 								</a>
 							</div>
 							<div class="col-md-12 profile">
-								<h4>しおんだよ。</h4>
-								連絡先: xxx-xxxx-xxxx
+								<h4>嘉数 <RUBY><RB>汐苑<RT>シオン</R></RT></RB></RUBY>
+									<a href="https://www.facebook.com/shion.kakazu"><span class="icon-092"></span></a>
+									<a href="https://www.instagram.com/piscuit/"><span class="icon-026"></span></a>
+									<a href="https://twitter.com/Shion_ba"><span class="icon-094"></span></a>
+								</h4>
+								<div class="profile-info">
+									<ul>
+										<li>ぶんぷち: 那覇市西町</li>
+										<li>タイプ :ヒコウ</li>
+										<li>誕生日: 6/25</li>
+										<li>連絡先: 080-1545-7625</li>
+									</ul>
+								</div>
 							</div>
 						</div>
 					</div>
