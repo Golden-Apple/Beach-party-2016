@@ -13,14 +13,15 @@
 				<ul class="col-md-offset-2 col-md-8 list-group info-list">
 					<li class="list-group-item">日時: 7月9日(土) 15:00 ~ 19:00</li>
 					<li class="list-group-item">場所: 波の上うみそら公園</li>
-					<li class="list-group-item">参加費: 無料(表現がいまいち...)</li>
-					<li class="list-group-item">持ち物: お好きな飲み物 ※瓶NG</li>
+					<li class="list-group-item">参加費: 無料</li>
+					<li class="list-group-item">持ち物: 持ち寄り歓迎です∧( 'Θ' )∧</li>
 					<img src="{{{asset('/assets/image/konko/list-konko.png')}}}" alt="" />
 				</ul>
 			</div>
 
 			<div>
-				<p>会場ではBBQやドリンクをある程度用意していますが、その他飲みたい物がありましたらご自由に持参してください。※ただし瓶はNG</p>
+				<p>会場ではBBQやドリンクをある程度用意していますが、その他飲みたい物等ありましたらご自由に持参してください。※ただし割れ物はNG</p>
+				<p>詳しくは<a href="http://www.naminouebeach.jp/bbq/annai">うみそら公園BBQ利用案内</a>をご覧ください</p>
 			</div>
 
 			<div class="row accessmap wow slideInLeft">
@@ -65,12 +66,23 @@
 						<div class="row text-center">
 							<div class="col-md-12">
 								<a>
-									<img src="{{{asset('assets/image/thumbnail.png')}}}" alt="しおん" class="thumbnail-img wow wobble" data-wow-iteration="10" data-wow-duration="0.15s"/>
+									<img src="{{{asset('assets/image/shion.jpg')}}}" alt="しおん" class="thumbnail-img wow wobble" data-wow-iteration="10" data-wow-duration="0.15s"/>
 								</a>
 							</div>
 							<div class="col-md-12 profile">
-								<h4>しおんだよ。</h4>
-								連絡先: xxx-xxxx-xxxx
+								<h4>嘉数 <RUBY><RB>汐苑<RT>シオン</R></RT></RB></RUBY>
+									<a href="https://www.facebook.com/shion.kakazu"><span class="icon-092"></span></a>
+									<a href="https://www.instagram.com/piscuit/"><span class="icon-026"></span></a>
+									<a href="https://twitter.com/Shion_ba"><span class="icon-094"></span></a>
+								</h4>
+								<div class="profile-info">
+									<ul>
+										<li>ぶんぷち: 那覇市西町</li>
+										<li>タイプ :ヒコウ</li>
+										<li>誕生日: 6/25</li>
+										<li>連絡先: 080-1545-7625</li>
+									</ul>
+								</div>
 							</div>
 						</div>
 					</div>

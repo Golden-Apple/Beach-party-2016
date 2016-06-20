@@ -72,6 +72,10 @@ body{
 	content: "\e65b";
 }
 
+.icon-094::before {
+	content: "\e65d";
+}
+
 .icon-140::before {
 	content: "\e68b";
 }
