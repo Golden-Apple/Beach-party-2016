@@ -19,10 +19,8 @@
 				</ul>
 			</div>
 
-			<div class="">
-				<p>
-					会場ではBBQやドリンクをある程度用意していますが、その他飲みたい物がありましたらご自由に持参してください。※ただし瓶はNG
-				</p>
+			<div>
+				<p>会場ではBBQやドリンクをある程度用意していますが、その他飲みたい物がありましたらご自由に持参してください。※ただし瓶はNG</p>
 			</div>
 
 			<div class="row accessmap wow slideInLeft">
@@ -56,7 +54,7 @@
 								<div class="profile-info">
 									<ul>
 										<li>生息地: 読谷</li>
-										<li>連絡先: xxx-xxxx-xxxx</li>
+										<li>連絡先: 090-9782-3127</li>
 									</ul>
 								</div>
 							</div>
