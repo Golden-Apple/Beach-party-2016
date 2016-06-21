@@ -15,4 +15,9 @@ $(function () {
 			$('#nav-list').hide();
 		}
 	});
+
+	$('#nav-list').click(function() {
+		$('#nav-list').slideUp();
+		return true;
+	});
 })

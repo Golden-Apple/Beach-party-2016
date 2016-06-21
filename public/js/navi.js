@@ -19696,8 +19696,15 @@ var Nav = function (_React$Component) {
 	}
 
 	_createClass(Nav, [{
+		key: 'scroll',
+		value: function scroll(nav) {
+			window.scrollTo(0, 0);
+		}
+	}, {
 		key: 'render',
 		value: function render() {
+			var _this2 = this;
+
 			return _react2.default.createElement(
 				'div',
 				{ className: 'nav-field' },
@@ -19716,10 +19723,12 @@ var Nav = function (_React$Component) {
 					{ id: 'nav-list' },
 					_react2.default.createElement(
 						'li',
-						null,
+						{ onClick: function onClick() {
+								return _this2.scroll("top");
+							} },
 						_react2.default.createElement(
 							'a',
-							{ className: 'list-a', href: '/' },
+							{ className: 'list-a' },
 							_react2.default.createElement('span', { className: 'icon-194' }),
 							'top'
 						)
