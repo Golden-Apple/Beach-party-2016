@@ -1,7 +1,9 @@
 $(function () {
+	var toggle = false;
+
 	$('#toggle').click(function() {
 		$('#nav-list').slideToggle();
-		return false;
+		toggle = true;
 	});
 
 	$(window).resize(function(){
@@ -17,7 +19,9 @@ $(function () {
 	});
 
 	$('#nav-list').click(function() {
-		$('#nav-list').slideUp();
-		return true;
+		if (toggle) {
+			$('#nav-list').slideUp();
+			toggle = false;
+		}
 	});
 })
