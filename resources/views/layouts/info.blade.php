@@ -14,7 +14,7 @@
 					<li class="list-group-item">日時: 7月9日(土) 15:00 ~ 19:00</li>
 					<li class="list-group-item">場所: 波の上うみそら公園</li>
 					<li class="list-group-item">参加費: 無料</li>
-					<li class="list-group-item">持ち物: 持ち寄り歓迎です∧( 'Θ' )∧</li>
+					<li class="list-group-item">持ち物: 持ち寄り歓迎です!</li>
 					<img src="{{{asset('/assets/image/konko/list-konko.png')}}}" alt="" />
 				</ul>
 			</div>
@@ -90,7 +90,7 @@
 					</div>
 				</div>
 
-				<a id="btn-contact" href="#contact" class="col-md-offset-3 col-xs-offset-2 col-md-6 col-xs-8 btn btn-primary btn-lg wow zoomIn">お問い合わせはこちら</a>
+				<a id="btn-contact" href="#contact" class="col-md-offset-3 col-xs-offset-1 col-md-6 col-xs-10 btn btn-primary btn-lg wow zoomIn">お問い合わせはこちら</a>
 			</div>
 		</div>
 
