@@ -90,6 +90,10 @@
 					</div>
 				</div>
 
+				<p class="text-center">
+					ビーチパーティ当日でお困りの際は上記の連絡先へお電話ください。
+				</p>
+
 				<a id="btn-contact" href="#contact" class="col-md-offset-3 col-xs-offset-1 col-md-6 col-xs-10 btn btn-primary btn-lg wow zoomIn">お問い合わせはこちら</a>
 			</div>
 		</div>
