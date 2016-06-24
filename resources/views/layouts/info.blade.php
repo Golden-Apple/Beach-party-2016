@@ -13,13 +13,14 @@
 				<ul class="col-md-offset-2 col-md-8 list-group info-list">
 					<li class="list-group-item">日時: 7月9日(土) 15:00 ~ 19:00</li>
 					<li class="list-group-item">場所: 波の上うみそら公園</li>
-					<li class="list-group-item">参加費: 無料</li>
-					<li class="list-group-item">持ち物: 持ち寄り歓迎です∧( 'Θ' )∧</li>
+					<li class="list-group-item">参加費: 2,500円</li>
+					<li class="list-group-item">持ち物: 持ち寄り歓迎です!</li>
 					<img src="{{{asset('/assets/image/konko/list-konko.png')}}}" alt="" />
 				</ul>
 			</div>
 
 			<div>
+				<p>会費は会場払いです。</p>
 				<p>会場ではBBQやドリンクをある程度用意していますが、その他飲みたい物等ありましたらご自由に持参してください。※ただし割れ物はNG</p>
 				<p>詳しくは<a href="http://www.naminouebeach.jp/bbq/annai">うみそら公園BBQ利用案内</a>をご覧ください</p>
 			</div>
@@ -90,7 +91,11 @@
 					</div>
 				</div>
 
-				<a id="btn-contact" href="#contact" class="col-md-offset-3 col-xs-offset-2 col-md-6 col-xs-8 btn btn-primary btn-lg wow zoomIn">お問い合わせはこちら</a>
+				<p class="text-center">
+					ビーチパーティ当日でお困りの際は上記の連絡先へお電話ください。
+				</p>
+
+				<a id="btn-contact" href="#contact" class="col-md-offset-3 col-xs-offset-1 col-md-6 col-xs-10 btn btn-primary btn-lg wow zoomIn">お問い合わせはこちら</a>
 			</div>
 		</div>
 
