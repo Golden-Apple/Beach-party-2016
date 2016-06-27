@@ -14,6 +14,7 @@
 					<li class="list-group-item">日時: 7月9日(土) 15:00 ~ 19:00</li>
 					<li class="list-group-item">場所: 波の上うみそら公園</li>
 					<li class="list-group-item">参加費: 2,500円</li>
+					<li class="list-group-item">締切: 7月1日(金) 23:55まで</li>
 					<li class="list-group-item">持ち物: 持ち寄り歓迎です!</li>
 					<img src="{{{asset('/assets/image/konko/list-konko.png')}}}" alt="" />
 				</ul>
